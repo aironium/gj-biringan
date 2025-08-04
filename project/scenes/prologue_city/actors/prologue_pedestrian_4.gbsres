@@ -1,0 +1,95 @@
+{
+  "_resourceType": "actor",
+  "id": "f45118ec-dd24-4bc8-b608-f9347912a7a9",
+  "name": "prologue pedestrian 4",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "2996fa7c-6392-4caf-9669-1e403c7ed94f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_10",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_START_UPDATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "3b07ffcf-f223-43d1-9cac-f3dad92f1a81"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "f45118ec-dd24-4bc8-b608-f9347912a7a9",
+              "x": {
+                "type": "number",
+                "value": 8
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "06a42fd9-ed0e-432e-a57c-64cf10f3a510"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "f45118ec-dd24-4bc8-b608-f9347912a7a9",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "8b2fc0e3-fb0e-4be1-ac37-2a7fb1fa040d"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "f45118ec-dd24-4bc8-b608-f9347912a7a9"
+            },
+            "id": "7d6e5ff7-28d2-4c24-9cae-e78be83b29ac"
+          },
+          {
+            "command": "EVENT_ACTOR_STOP_UPDATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "25dec66b-1043-48c1-8409-b09e86bd31de"
+          }
+        ]
+      },
+      "id": "dd860aac-ff4b-4846-810b-151ab604e3ec"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 8,
+  "y": 15,
+  "_index": 4
+}

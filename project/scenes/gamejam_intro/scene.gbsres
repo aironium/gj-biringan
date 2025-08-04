@@ -1,0 +1,48 @@
+{
+  "_resourceType": "scene",
+  "id": "726410cf-2de1-4440-959b-33836bc17403",
+  "_index": 2,
+  "name": "Gamejam Intro",
+  "backgroundId": "6b0affa6-b5e3-4682-9782-7bd08fcced2c",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_3",
+  "x": 496,
+  "y": 312,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "dee591c7-2ca1-45f4-ac1a-59b7350b13ad"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "91054d1f-b56d-4a23-aecb-da61abd476bc",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ca5a7747-13a5-48b6-b18c-ed0b80330899"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

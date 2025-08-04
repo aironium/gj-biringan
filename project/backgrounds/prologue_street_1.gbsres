@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f4374afb-c4f7-4612-8e86-8a995d78c198",
+  "name": "prologue_street_1",
+  "symbol": "bg_prologue_street_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "prologue_street_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

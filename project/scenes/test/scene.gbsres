@@ -1,0 +1,47 @@
+{
+  "_resourceType": "scene",
+  "id": "b8ce1d41-0286-46d7-8476-3ed2bf33da53",
+  "_index": 1,
+  "name": "Test",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0034+102+008+104+006+102+008+104+006+102+008+104+006+102+008+104+006+102+005c+106+003+10!00a+106+002+105+007+106+002+102+00!102+00f+105+003d+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 1048,
+  "y": 312,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "50f7b9d7-acf7-40fc-8611-35884b3216b7"
+      },
+      "id": "578ef4a1-0218-466d-bba4-f274d021634c"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 2
+      },
+      "id": "15fa7cb9-6190-43ae-b35f-fb9d9a3aafc0"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "918bf73d-a108-4f6f-bbb4-43a2b7cb1cbf"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+}

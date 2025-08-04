@@ -1,0 +1,40 @@
+{
+  "_resourceType": "scene",
+  "id": "92155155-734e-4775-ab39-5231074edbd9",
+  "_index": 6,
+  "name": "Rec-Forest-1",
+  "backgroundId": "1da600da-9122-4c95-8735-0d7ac1cfd407",
+  "tilesetId": "",
+  "width": 35,
+  "height": 35,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0075+0f4+001e+0f6+001d+0f8+001b+0fa+008+0f5+00c+0fc+004+0f7+00e+0f16+00f+0f14+0011+0f12+0013+0f10+0015+0fe+001d+0f6+009+0f4+0011+0f5+008+0f6+0012+0f3+007+0f7+0013+0f2+007+0f7+0013+0f2+006+0f8+009+0f5+005+0f2+005+0f8+009+0f7+004+0f2+003+0f9+009+0f8+005+0fc+008+0fa+006+0f9+00a+0f9+007+0f9+009+0f8+009+0f8+009+0f8+00a+0f6+00b+0f6+001d+0f5+001e+0f5+001e+0f5+001e+0f5+001e+0f6+001d+0f6+001d+0f7+001d+0f7+001c+0f7+00a+",
+  "autoFadeSpeed": 3,
+  "symbol": "scene_7",
+  "x": 1272,
+  "y": 376,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "e733ba1f-12ea-4392-ad6f-2190e82c4c78"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 31
+      },
+      "id": "ad1d7d41-ad81-4e58-81c9-46adb295b09b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+}

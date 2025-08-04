@@ -1,0 +1,30 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "extract_point_x",
+      "symbol": "var_extract_point_x"
+    },
+    {
+      "id": "1",
+      "name": "extract_point_y",
+      "symbol": "var_extract_point_y"
+    },
+    {
+      "id": "2",
+      "name": "extract_point_reserve",
+      "symbol": "var_extract_point_reserve"
+    },
+    {
+      "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
+      "name": "x",
+      "symbol": "var_x"
+    },
+    {
+      "id": "209955c1-6b38-4b4c-9c65-b8d967abff01__L0",
+      "name": "btn_str_lock",
+      "symbol": "var_btn_str_lock"
+    }
+  ]
+}

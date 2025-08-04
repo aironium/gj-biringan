@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6b0affa6-b5e3-4682-9782-7bd08fcced2c",
+  "name": "intro_jam",
+  "symbol": "bg_intro_jam",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "intro_jam.png",
+  "tileColors": "",
+  "autoColor": false
+}

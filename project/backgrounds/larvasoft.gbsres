@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "07b1ca77-81ef-4abd-af3a-35efc0376502",
+  "name": "larvasoft",
+  "symbol": "bg_larvasoft",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "larvasoft.png",
+  "tileColors": "",
+  "autoColor": false
+}

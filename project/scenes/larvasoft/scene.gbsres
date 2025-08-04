@@ -1,0 +1,52 @@
+{
+  "_resourceType": "scene",
+  "id": "91054d1f-b56d-4a23-aecb-da61abd476bc",
+  "_index": 0,
+  "name": "Larvasoft",
+  "backgroundId": "07b1ca77-81ef-4abd-af3a-35efc0376502",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 2,
+  "symbol": "scene_1",
+  "x": 496,
+  "y": 512,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "1cc18b07-ab35-4611-8a4a-7c13b625ad3b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "209955c1-6b38-4b4c-9c65-b8d967abff01",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 42
+        },
+        "direction": "right",
+        "fadeSpeed": 2,
+        "__collapse": false
+      },
+      "id": "53c1e492-ec77-4154-8246-d66e32c9879d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292",
+  "autoFadeEventCollapse": false
+}
