@@ -1,0 +1,59 @@
+{
+  "_resourceType": "script",
+  "id": "f0f620ef-3ce3-455b-b43f-aea5f7c49821",
+  "name": "Debug Save Confirmed",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "expression",
+            "value": "$10$"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "[Debug] Saved"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 3,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": false,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e3b15db9-4700-441a-a50f-75923eaef4c8"
+          }
+        ],
+        "false": []
+      },
+      "id": "8964a3a2-a25f-4bb9-aa3e-4f527c96a30b"
+    }
+  ]
+}

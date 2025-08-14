@@ -45,7 +45,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "b6f94cc2-9782-43a7-b53e-3b0122038e15"
     },
@@ -55,7 +56,7 @@
         "text": [
           "What...\nhappened?"
         ],
-        "__section": "layout",
+        "__section": "behavior",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
         "minHeight": 4,
         "maxHeight": 7,
@@ -68,7 +69,7 @@
         "speedIn": -1,
         "speedOut": -1,
         "closeWhen": "key",
-        "closeButton": "a",
+        "closeButton": "any",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
@@ -90,10 +91,10 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": false,
-        "speedIn": 5,
+        "speedIn": 2,
         "speedOut": 1,
-        "closeWhen": "text",
-        "closeButton": "a",
+        "closeWhen": "key",
+        "closeButton": "any",
         "closeDelayTime": 2,
         "closeDelayFrames": 30
       },
@@ -105,7 +106,7 @@
         "text": [
           "\n  Yes, you!"
         ],
-        "__section": "text",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 18,
         "maxHeight": 18,
@@ -115,10 +116,10 @@
         "position": "bottom",
         "clearPrevious": true,
         "showFrame": false,
-        "speedIn": 5,
+        "speedIn": 2,
         "speedOut": 1,
-        "closeWhen": "text",
-        "closeButton": "a",
+        "closeWhen": "key",
+        "closeButton": "any",
         "closeDelayTime": 2,
         "closeDelayFrames": 30
       },
@@ -137,7 +138,7 @@
         "text": [
           "   Get in.\n  Don't ask."
         ],
-        "__section": "layout",
+        "__section": "behavior",
         "avatarId": "",
         "minHeight": 4,
         "maxHeight": 18,
@@ -213,7 +214,7 @@
           "value": 16
         },
         "direction": "",
-        "fadeSpeed": "2"
+        "fadeSpeed": 4
       },
       "id": "c402574b-28f2-4bf1-9aee-ecd3c41b338a"
     }

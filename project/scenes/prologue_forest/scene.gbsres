@@ -75,25 +75,16 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "2f6b6b32-4718-4f4f-99ec-7e0de27571ae"
     },
     {
-      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "actorId": "$self$",
-        "speed": 0.5
+        "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
       },
-      "id": "e8a12376-9f2e-4a2b-a4b2-c4e67e194135"
-    },
-    {
-      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
-      "args": {
-        "actorId": "$self$",
-        "speed": 7
-      },
-      "id": "e081e1ea-af15-40ea-b16d-da4e38bd4e47"
+      "id": "ecca5a00-a334-46df-bf04-730a00c16aba"
     },
     {
       "command": "EVENT_ACTOR_SET_DIRECTION",
@@ -216,7 +207,8 @@
       "command": "EVENT_ACTOR_EMOTE",
       "args": {
         "actorId": "$self$",
-        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32",
+        "__collapse": true
       },
       "id": "f3c92eea-f716-45f0-9bca-16b3ad3aae4c"
     },
@@ -293,5 +285,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512",
+  "autoFadeEventCollapse": true
 }

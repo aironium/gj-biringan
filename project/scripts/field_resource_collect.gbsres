@@ -10,7 +10,12 @@
       "passByReference": true
     }
   },
-  "actors": {},
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
   "symbol": "script_3",
   "script": [
     {
@@ -19,10 +24,25 @@
         "variable": "V0",
         "value": {
           "type": "expression",
-          "value": "$Variable + 1 + rnd(2)"
+          "value": "($V0$ + 1) + rnd(3)"
         }
       },
       "id": "223b9a91-3eba-4635-a993-730e9d9fbdbe"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "805fec31-e44d-459f-9a15-d446df6438a5"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "d409d4ad-c324-40c4-9db8-bbf0f9a3e1d0"
+      },
+      "id": "211569c0-4f13-47ea-9bc8-d211ed5531f4"
     }
   ]
 }

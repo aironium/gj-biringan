@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "72e3d391-91e4-4487-91e5-e5e729fb657a",
+  "name": "blankLight",
+  "symbol": "bg_blanklight",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "blankLight.png",
+  "tileColors": "",
+  "autoColor": false
+}

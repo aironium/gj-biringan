@@ -17,16 +17,6 @@
       "symbol": "var_extract_point_reserve"
     },
     {
-      "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
-      "name": "x",
-      "symbol": "var_x"
-    },
-    {
-      "id": "209955c1-6b38-4b4c-9c65-b8d967abff01__L0",
-      "name": "btn_str_lock",
-      "symbol": "var_btn_str_lock"
-    },
-    {
       "id": "3",
       "name": "base_inv_wood",
       "symbol": "var_base_inv_wood"
@@ -55,6 +45,26 @@
       "id": "8",
       "name": "temp_inv_wood",
       "symbol": "var_temp_inv_wood"
+    },
+    {
+      "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
+      "name": "x",
+      "symbol": "var_x"
+    },
+    {
+      "id": "209955c1-6b38-4b4c-9c65-b8d967abff01__L0",
+      "name": "btn_str_lock",
+      "symbol": "var_btn_str_lock"
+    },
+    {
+      "id": "9",
+      "name": "chapter_obj_num",
+      "symbol": "var_chapter_obj_num"
+    },
+    {
+      "id": "10",
+      "name": "debug",
+      "symbol": "var_debug"
     }
   ]
 }

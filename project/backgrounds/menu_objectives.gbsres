@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8b1fa478-25e7-428e-b093-d9fee6cc20f4",
+  "name": "menu_objectives",
+  "symbol": "bg_menu_objectives",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "menu_objectives.png",
+  "tileColors": ""
+}

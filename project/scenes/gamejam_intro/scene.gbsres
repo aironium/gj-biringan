@@ -17,6 +17,55 @@
   "y": 312,
   "script": [
     {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 2,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "saved game present"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a54fe558-caa1-434a-a6cb-438a145d81f1"
+          }
+        ],
+        "false": []
+      },
+      "id": "56d8c58b-dc67-4c12-88da-4b35e7d7854a"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "25946441-11b7-4eff-bf13-84ed6fe186d0"
+    },
+    {
       "command": "EVENT_WAIT",
       "args": {
         "time": 3,

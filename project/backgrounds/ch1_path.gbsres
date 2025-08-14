@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c6dbf543-54ab-4416-b215-ca9d7e8ed08a",
+  "name": "ch1_path",
+  "symbol": "bg_ch1_path",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "ch1_path.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -11,14 +11,16 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Lagusan sa\nBiringan\n(Gatway to\nBiringan)\n\n2025 Larvasoft\n\nDeveloper:\nAironium\n\nAn entry for\nGBCompo 2025"
+          "Lagusan sa\nBiringan\n\n(Gatway to\nBiringan)",
+          "2025 \nLarvasoft\n\nDeveloper:\nAironium",
+          "An entry for\nGBCompo 2025\n\nMade with \nGBStudio"
         ],
-        "__section": "layout",
+        "__section": "text",
         "avatarId": "",
-        "minHeight": 5,
+        "minHeight": 7,
         "maxHeight": 5,
-        "textX": 3,
-        "textY": 0,
+        "textX": 2,
+        "textY": 1,
         "textHeight": 15,
         "position": "bottom",
         "clearPrevious": true,

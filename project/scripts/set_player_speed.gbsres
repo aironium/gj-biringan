@@ -1,0 +1,27 @@
+{
+  "_resourceType": "script",
+  "id": "c610aba6-6bcc-48b0-a685-03d79670b46b",
+  "name": "Set Player Speed",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_6",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "6e0d5df0-2cca-4196-9a12-000b4cdc5251"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 7
+      },
+      "id": "7c11a8dc-bcfc-4365-91c7-299ddf31991e"
+    }
+  ]
+}

@@ -35,7 +35,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Oh well, \nanotherday of \njob seeking"
+          "Oh well, \nanother day of \njob seeking"
         ],
         "__section": "text",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",

@@ -33,9 +33,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "STOP!"
+          "MY EYES!"
         ],
-        "__section": "layout",
+        "__section": "text",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
         "minHeight": 4,
         "maxHeight": 7,

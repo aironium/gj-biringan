@@ -35,7 +35,7 @@
         "text": [
           "Wait, stop."
         ],
-        "__section": "layout",
+        "__section": "text",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
         "minHeight": 4,
         "maxHeight": 7,
@@ -66,6 +66,31 @@
         }
       },
       "id": "2e8dcf77-cf3a-47d2-b9c3-28a69f6a003a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I can't!"
+        ],
+        "__section": "text",
+        "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "33e5bc14-ffd6-4755-9043-3e109b68c49c"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

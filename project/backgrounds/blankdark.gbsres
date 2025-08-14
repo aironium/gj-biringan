@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "72e310ab-4e86-408c-832f-81e3d005fb91",
+  "name": "blankDark",
+  "symbol": "bg_blankdark",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "blankDark.png",
+  "tileColors": "",
+  "autoColor": false
+}

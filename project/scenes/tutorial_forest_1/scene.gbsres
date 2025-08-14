@@ -1,0 +1,66 @@
+{
+  "_resourceType": "scene",
+  "id": "261fb5eb-f5bc-442c-9adc-0b96973e356c",
+  "_index": 30,
+  "name": "Tutorial_Forest_1",
+  "backgroundId": "94084baf-44d9-4657-95e9-4e931eddc94e",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002a+105+007+105+0017+105+007+105+00d+104+006+105+007+105+00d+104+006+105+003+0f2+0014+104+00d+0f3+0014+104+00c+0f3+01!005+0fb+004+104+00a+0f4+01!005+0f3+017+0f4+00f+0f3+012+006+0f!012+007+012+0f2+00c+0f5+01!008+01!00b+0f3+009+0f4+013+0015+01!0f3+008+014+0011+105+003+01!0f3+001c+105+004+01!0f3+00c+0f!00e+105+005+01!0f2+00b+0f3+0018+0f3+00a+0f3+0018+01!0f2+00a+0f2+003+105+0012+0f3+009+0f2+003+105+0012+01!0f2+009+0f2+003+105+0013+0f2+009+0f3+002+105+0013+0f2+009+01!0f2+002+105+0013+0f2+00a+0f3+00f+106+004+0f2+00a+01!0f3+00e+106+003+0f3+00b+01!0f3+00d+106+003+01!0f!01!00c+01!0f3+00c+106+004+01!00e+01!0f3+00b+106+00c+104+004+01!0f4+001b+104+005+0f7+0018+104+005+01!0fe+0010+104+006+013+0fc+00f+104+009+01c+007+0f!01!0025+0f!01!0025+0f!01!0023+0f3+01!0015+0f2+008+0f7+01!0016+0fc+015+0017+01c+007+105+0023+105+0023+105+002a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_31",
+  "x": 672,
+  "y": 1608,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "5fa2bff9-fa3e-434e-a8f5-89341bb4505a"
+                  },
+                  "id": "09e0b553-6bb3-4318-9c77-7dbd4a711af4"
+                }
+              ]
+            },
+            "id": "03dac1e0-b303-4e1a-96e3-16b31c55d1a2"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "f70049a4-f206-4ebd-b221-71395ea2095c"
+          }
+        ]
+      },
+      "id": "d05c292f-4200-46f2-a38d-b47150a4513d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+}

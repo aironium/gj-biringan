@@ -1,0 +1,65 @@
+{
+  "_resourceType": "actor",
+  "id": "ac751623-7469-44ed-9228-94d130fd32cc",
+  "name": "Hint 1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "c3ea3d43-29a2-4f2e-a11f-d63497755442",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 7,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Maybe I should\nbuild a hut?",
+          "I could probably\nget some wood."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d9f9f5e8-2faf-4d4f-bba3-7b826e616976"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "9",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "b94b65d3-4440-46e7-87a2-2e6a00999376"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 18,
+  "_index": 0
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "70759f19-2a50-4c20-90db-27baecae6b6d",
+  "name": "chapter1_intro",
+  "symbol": "bg_chapter1_intro",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "chapter1_intro.png",
+  "tileColors": "",
+  "autoColor": false
+}

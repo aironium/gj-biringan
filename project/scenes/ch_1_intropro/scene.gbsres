@@ -1,0 +1,94 @@
+{
+  "_resourceType": "scene",
+  "id": "c177b8bb-44f4-4d41-bb02-94e5b644eac3",
+  "_index": 26,
+  "name": "Ch 1 IntroPro",
+  "backgroundId": "c6dbf543-54ab-4416-b215-ca9d7e8ed08a",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f19f+00c+0f19+0012+0f15+0014+0f12+0017+0f10+0019+0fe+001b+0fc+001d+0fa+001f+0f8+0021+0f6+0022+0f5+0024+0f4+0024+0f4+0025+0f3+0025+0f2+0026+0f2+0026+0f2+0026+0f!00208+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_27",
+  "x": 680,
+  "y": 1160,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "5fa2bff9-fa3e-434e-a8f5-89341bb4505a"
+                  },
+                  "id": "3b83e414-565e-4f9e-822e-8766d54471b7"
+                }
+              ]
+            },
+            "id": "0ec98591-6d31-4585-87fe-e55da763d8ac"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "fa95b9a7-8b69-498d-8a92-535e5ede8e99"
+          }
+        ]
+      },
+      "id": "d500e69b-f4c8-4e99-8eea-9815ffe82f1c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "It took a while\nof walking around.",
+          "And in the middle\nof the woods\nis a clearing.",
+          "It seems empty, so\nI stayed there to\nrest my mind.",
+          "This is a weird\nplace."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f51c50d5-a6e1-46ef-a572-7d7d6a7775e3"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+}
