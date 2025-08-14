@@ -35,56 +35,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Oh well, \nanother day of \njob seeking"
-        ],
-        "__section": "text",
-        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 2,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": 1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "3ef389f1-0b7c-4293-a9a5-fa3279df6bd1"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "I can't find an\nopening today"
-        ],
-        "__section": "layout",
-        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 2,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": 1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "08f300e0-1261-4b22-b46c-70a9ed6bd306"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
+          "Oh well, \nanother day of \njob seeking",
+          "I can't find an\nopening today",
           "That was tiring\nI'm going home."
         ],
         "__section": "text",
@@ -104,7 +56,7 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "f12fefe5-0732-43af-9e1a-f6faf486a146"
+      "id": "3ef389f1-0b7c-4293-a9a5-fa3279df6bd1"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

@@ -57,6 +57,37 @@
         ]
       },
       "id": "d05c292f-4200-46f2-a38d-b47150a4513d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " This is a \n portion of a\n forest",
+          " Collect woods\n on scattered\n trees around!",
+          " Interact\n objects by\n pressing [A]",
+          " To go back to\n your base,\n go to menu!",
+          " Check your menu\n by pressing\n [Start]",
+          " Objectives and\n Items can be\n also checked\n there!",
+          " Now go!"
+        ],
+        "__section": "text",
+        "avatarId": "b5dd4437-3953-437c-94eb-982d2e5d4307",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "61be1b19-329c-4ba4-b059-33f36cfcad1b"
     }
   ],
   "playerHit1Script": [],

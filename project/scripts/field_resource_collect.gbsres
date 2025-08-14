@@ -6,7 +6,7 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "Wood",
       "passByReference": true
     }
   },
@@ -18,17 +18,6 @@
   },
   "symbol": "script_3",
   "script": [
-    {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "V0",
-        "value": {
-          "type": "expression",
-          "value": "($V0$ + 1) + rnd(3)"
-        }
-      },
-      "id": "223b9a91-3eba-4635-a993-730e9d9fbdbe"
-    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -43,6 +32,13 @@
         "emoteId": "d409d4ad-c324-40c4-9db8-bbf0f9a3e1d0"
       },
       "id": "211569c0-4f13-47ea-9bc8-d211ed5531f4"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V0"
+      },
+      "id": "c0fd13be-9490-44fd-bf78-610bb6ba7b25"
     }
   ]
 }
