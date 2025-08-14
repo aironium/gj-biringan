@@ -1,0 +1,28 @@
+{
+  "_resourceType": "script",
+  "id": "6f70504f-b12e-4b4b-a63e-63c511466c37",
+  "name": "Field Resource Collect",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    }
+  },
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "V0",
+        "value": {
+          "type": "expression",
+          "value": "$Variable + 1 + rnd(2)"
+        }
+      },
+      "id": "223b9a91-3eba-4635-a993-730e9d9fbdbe"
+    }
+  ]
+}

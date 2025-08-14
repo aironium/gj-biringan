@@ -25,6 +25,36 @@
       "id": "209955c1-6b38-4b4c-9c65-b8d967abff01__L0",
       "name": "btn_str_lock",
       "symbol": "var_btn_str_lock"
+    },
+    {
+      "id": "3",
+      "name": "base_inv_wood",
+      "symbol": "var_base_inv_wood"
+    },
+    {
+      "id": "4",
+      "name": "base_inv_stone",
+      "symbol": "var_base_inv_stone"
+    },
+    {
+      "id": "5",
+      "name": "base_inv_metal",
+      "symbol": "var_base_inv_metal"
+    },
+    {
+      "id": "6",
+      "name": "temp_inv_metal",
+      "symbol": "var_temp_inv_metal"
+    },
+    {
+      "id": "7",
+      "name": "temp_inv_stone",
+      "symbol": "var_temp_inv_stone"
+    },
+    {
+      "id": "8",
+      "name": "temp_inv_wood",
+      "symbol": "var_temp_inv_wood"
     }
   ]
 }

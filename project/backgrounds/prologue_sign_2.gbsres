@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4fd2ab1a-b629-4a8d-93dd-f867730cbe55",
+  "name": "prologue_sign_2",
+  "symbol": "bg_prologue_sign_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "prologue_sign_2.png",
+  "tileColors": ""
+}

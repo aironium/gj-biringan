@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "4bca0a83-a6b3-4049-bdfa-24573dcb51f0",
-  "_index": 5,
+  "_index": 3,
   "name": "Prologue City",
   "backgroundId": "f4374afb-c4f7-4612-8e86-8a995d78c198",
   "tilesetId": "",
@@ -13,22 +13,22 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 840,
-  "y": 312,
+  "x": 848,
+  "y": 488,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Somewhere in\nVisayas..."
+          "Downtown\nTacloban"
         ],
         "__section": "text",
-        "avatarId": "",
-        "minHeight": 2,
-        "maxHeight": 7,
+        "avatarId": "0bd86b32-dd79-4871-a014-6597d5170b95",
+        "minHeight": 3,
+        "maxHeight": 8,
         "textX": 1,
         "textY": 1,
-        "textHeight": 5,
+        "textHeight": 6,
         "position": "top",
         "clearPrevious": true,
         "showFrame": "true",
@@ -44,7 +44,7 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2,
+        "time": 3,
         "frames": 30
       },
       "id": "029ee3a4-d54d-4d80-a17c-fe0e57ab2cc5"
@@ -52,14 +52,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "33a7b5d4-70af-4abd-ab5f-66dda96005ce",
+        "sceneId": "15a68038-a984-418a-b34e-0c6caddfc078",
         "x": {
           "type": "number",
-          "value": 8
+          "value": 1
         },
         "y": {
           "type": "number",
-          "value": 16
+          "value": 1
         },
         "direction": "",
         "fadeSpeed": "2"

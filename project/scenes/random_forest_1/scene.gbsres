@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "59cf5044-de69-4a7a-b207-fc1b5e0f83a6",
+  "_index": 5,
+  "name": "Random_Forest_1",
+  "backgroundId": "94084baf-44d9-4657-95e9-4e931eddc94e",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00aa+0f2+0025+0f3+0024+0f4+005+0fb+0012+0f5+005+0fe+00f+0f5+006+0f3+007+0f4+00c+0f6+008+0f!00b+0f3+009+0f7+0015+0f4+008+0f4+0019+0f4+0025+0f4+00c+0f!0018+0f3+00b+0f3+0018+0f3+00a+0f3+0018+0f3+00a+0f2+001a+0f3+009+0f2+001a+0f3+009+0f2+001b+0f2+009+0f3+001a+0f2+009+0f3+001a+0f2+00a+0f3+0019+0f2+00a+0f4+0017+0f3+00b+0f4+0016+0f3+00c+0f4+0016+0f!00e+0f4+0025+0f5+0024+0f7+0021+0ff+001a+0ff+001c+0fc+007+0f2+0025+0f2+0025+0f2+0023+0f4+0015+0f2+008+0f8+0016+0f11+0017+0fc+0086+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 432,
+  "y": 1608,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

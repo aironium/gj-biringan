@@ -1,0 +1,92 @@
+{
+  "_resourceType": "scene",
+  "id": "2aa0ded2-70f8-42f8-86c1-38f0a03db325",
+  "_index": 12,
+  "name": "Prologue Vehicle 2",
+  "backgroundId": "53f8d66f-279f-40cc-916a-fa6a269be5f2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 1552,
+  "y": 312,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "32618d07-aa4f-4b37-a87b-214247204bf4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Wait, stop."
+        ],
+        "__section": "layout",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c5798f03-4a49-4ae6-b5e4-f2273bdc3e00"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 3,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 6
+        }
+      },
+      "id": "2e8dcf77-cf3a-47d2-b9c3-28a69f6a003a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "97b53919-8c49-460d-8f64-4f9c1b67a652",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "1a9e093c-163e-49fa-88f2-600cac31848a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

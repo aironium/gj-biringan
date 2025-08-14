@@ -1,0 +1,79 @@
+{
+  "_resourceType": "scene",
+  "id": "7a6c3a87-84ef-4eaf-b896-835d3499e48a",
+  "_index": 11,
+  "name": "Prologue Vehicle 1",
+  "backgroundId": "6dd85e26-8203-4bd1-ba2e-a9783df5905a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 1376,
+  "y": 312,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 2,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 3
+        }
+      },
+      "id": "afe97617-d106-4bb4-a2a9-828387ee921f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Something's\nweird"
+        ],
+        "__section": "text",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f910ec92-6bda-4c18-bf4c-da3755cc4f19"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "af266c08-97c0-42d6-b9ac-e032437e2113",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "970c5c54-56aa-4f3d-8bd4-4fe5d13295e2"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

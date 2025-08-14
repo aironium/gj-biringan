@@ -1,0 +1,148 @@
+{
+  "_resourceType": "scene",
+  "id": "15a68038-a984-418a-b34e-0c6caddfc078",
+  "_index": 4,
+  "name": "Prologue Sky",
+  "backgroundId": "ecb8ec83-eeca-4418-a4a3-d33b68cdd3a0",
+  "tilesetId": "",
+  "width": 20,
+  "height": 40,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00320+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 1024,
+  "y": 312,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 22
+        },
+        "speed": 1
+      },
+      "id": "7a59d8ab-8486-4ea5-8d54-233faeffc1d4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Oh well, \nanotherday of \njob seeking"
+        ],
+        "__section": "text",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3ef389f1-0b7c-4293-a9a5-fa3279df6bd1"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I can't find an\nopening today"
+        ],
+        "__section": "layout",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "08f300e0-1261-4b22-b46c-70a9ed6bd306"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "That was tiring\nI'm going home."
+        ],
+        "__section": "text",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f12fefe5-0732-43af-9e1a-f6faf486a146"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "303c79e1-3158-490c-a2e3-1655848adabb",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "cf5c0e35-23dd-45b9-85eb-18dafd790ff8"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 39
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "25a51cad-1006-43bb-a000-0b396cd3a352"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

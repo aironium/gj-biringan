@@ -14,7 +14,7 @@
   "autoFadeSpeed": 2,
   "symbol": "scene_1",
   "x": 496,
-  "y": 512,
+  "y": 472,
   "script": [
     {
       "command": "EVENT_WAIT",

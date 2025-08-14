@@ -1,0 +1,79 @@
+{
+  "_resourceType": "scene",
+  "id": "d27f753e-5435-4a10-9fed-fb57f38ae0c4",
+  "_index": 9,
+  "name": "Prologue City 3",
+  "backgroundId": "ac953eb0-fec9-4182-9a9b-481a0a1d89c2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 1200,
+  "y": 488,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "San Juanico\nBridge"
+        ],
+        "__section": "text",
+        "avatarId": "0bd86b32-dd79-4871-a014-6597d5170b95",
+        "minHeight": 3,
+        "maxHeight": 8,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 6,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": 1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "523ec36e-9135-4314-87c3-41555e3824c3"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1.5,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "a6953aae-5e8c-45a2-bfd9-4c725137ce9f"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "7a6c3a87-84ef-4eaf-b896-835d3499e48a",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": 2
+      },
+      "id": "39324575-e003-4be5-8b35-865176c0d9ea"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

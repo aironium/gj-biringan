@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "209955c1-6b38-4b4c-9c65-b8d967abff01",
-  "_index": 3,
+  "_index": 2,
   "name": "Title",
   "backgroundId": "2e32cf0e-bd64-465e-8576-30b87b89527c",
   "tilesetId": "",
@@ -10,7 +10,7 @@
   "type": "POINTNCLICK",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00102+0f!002f+0f8+001a+0f14+001f4+",
+  "collisions": "0035c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 664,
@@ -69,23 +69,6 @@
       "id": "a2fd1641-b689-45b7-81bd-db215d598e0c"
     },
     {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
-      "args": {
-        "actorId": "7d8a9a3c-ec71-4701-b880-0d5c0700005f",
-        "x": {
-          "type": "number",
-          "value": 0
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "moveType": "horizontal",
-        "useCollisions": false
-      },
-      "id": "a39fae03-5037-43d1-8976-90d6bb7de998"
-    },
-    {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "1b16aba3-ff3d-416e-9cb1-e9be59f75e6e",
@@ -109,21 +92,21 @@
       "id": "01993484-5ed3-4bce-9224-5f393951104b"
     },
     {
+      "command": "EVENT_ACTOR_ACTIVATE",
+      "args": {
+        "actorId": "cc95ae8b-2861-4f23-af97-7e0ebf2ac817"
+      },
+      "id": "9122bdf0-00c4-445a-bbc5-c9b10c13829c"
+    },
+    {
       "command": "EVENT_ACTOR_SET_STATE",
       "args": {
         "actorId": "1b16aba3-ff3d-416e-9cb1-e9be59f75e6e",
         "spriteStateId": "",
-        "loopAnim": true
+        "loopAnim": false,
+        "__collapse": false
       },
       "id": "011282ba-008c-4bae-9d2d-466d71a15179"
-    },
-    {
-      "command": "EVENT_WAIT",
-      "args": {
-        "time": 0.5,
-        "frames": 30
-      },
-      "id": "89af2ada-bc70-4a54-b862-d77155bb5193"
     },
     {
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
@@ -132,13 +115,6 @@
         "speed": 3
       },
       "id": "1008b334-314d-47b6-905f-d2c100016e74"
-    },
-    {
-      "command": "EVENT_ACTOR_ACTIVATE",
-      "args": {
-        "actorId": "cc95ae8b-2861-4f23-af97-7e0ebf2ac817"
-      },
-      "id": "9122bdf0-00c4-445a-bbc5-c9b10c13829c"
     },
     {
       "command": "EVENT_PLAYER_SET_SPRITE",

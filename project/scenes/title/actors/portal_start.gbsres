@@ -31,7 +31,8 @@
             "command": "EVENT_IF_SAVED_DATA",
             "args": {
               "saveSlot": 0,
-              "__collapseElse": false
+              "__collapseElse": false,
+              "__collapse": false
             },
             "children": {
               "true": [
@@ -49,7 +50,8 @@
                     "option7": "",
                     "option8": "",
                     "cancelOnB": true,
-                    "layout": "dialogue"
+                    "layout": "dialogue",
+                    "__collapse": false
                   },
                   "id": "bb4f5d7a-a6e6-47ee-84e6-ec5aa7cb647e"
                 },
@@ -104,17 +106,17 @@
                             {
                               "command": "EVENT_SWITCH_SCENE",
                               "args": {
-                                "sceneId": "4bca0a83-a6b3-4049-bdfa-24573dcb51f0",
+                                "sceneId": "1da701ea-6f3a-4e08-9571-ea265b7e1e17",
                                 "x": {
                                   "type": "number",
-                                  "value": 0
+                                  "value": 1
                                 },
                                 "y": {
                                   "type": "number",
-                                  "value": 17
+                                  "value": 1
                                 },
                                 "direction": "down",
-                                "fadeSpeed": 2
+                                "fadeSpeed": 3
                               },
                               "id": "45cdcfbc-ab17-4dfb-bcb8-4a96150dcc64"
                             }
@@ -162,6 +164,26 @@
               ],
               "false": [
                 {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 2,
+                    "option1": "New Game",
+                    "option2": "About",
+                    "option3": "About",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": false,
+                    "__collapse": false
+                  },
+                  "id": "bb643ff5-bc67-41ba-82e3-0efdfeb18d20"
+                },
+                {
                   "command": "EVENT_IF",
                   "args": {
                     "condition": {
@@ -183,17 +205,17 @@
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {
-                          "sceneId": "4bca0a83-a6b3-4049-bdfa-24573dcb51f0",
+                          "sceneId": "1da701ea-6f3a-4e08-9571-ea265b7e1e17",
                           "x": {
                             "type": "number",
-                            "value": 2
+                            "value": 1
                           },
                           "y": {
                             "type": "number",
-                            "value": 17
+                            "value": 0
                           },
                           "direction": "down",
-                          "fadeSpeed": 2
+                          "fadeSpeed": 3
                         },
                         "id": "82dd7c87-7e1c-4667-989f-e72e18274cdd"
                       }
@@ -237,26 +259,6 @@
               ]
             },
             "id": "ca8b45d0-f419-4904-afff-dcf276978b13"
-          },
-          {
-            "command": "EVENT_MENU",
-            "args": {
-              "variable": "L0",
-              "items": 2,
-              "option1": "New Game",
-              "option2": "About",
-              "option3": "About",
-              "option4": "",
-              "option5": "",
-              "option6": "",
-              "option7": "",
-              "option8": "",
-              "cancelOnB": true,
-              "layout": "dialogue",
-              "cancelOnLastOption": false,
-              "__collapse": true
-            },
-            "id": "bb643ff5-bc67-41ba-82e3-0efdfeb18d20"
           }
         ],
         "false": []
@@ -269,7 +271,8 @@
       "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
       "args": {
         "actorId": "$self$",
-        "speed": 255
+        "speed": 7,
+        "__collapse": true
       },
       "id": "11a9d853-54f3-4da5-835b-ea62e200d53a"
     },

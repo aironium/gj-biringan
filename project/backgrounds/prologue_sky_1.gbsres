@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "ecb8ec83-eeca-4418-a4a3-d33b68cdd3a0",
+  "name": "prologue_sky_1",
+  "symbol": "bg_prologue_sky_1",
+  "width": 20,
+  "height": 40,
+  "imageWidth": 160,
+  "imageHeight": 320,
+  "filename": "prologue_sky_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

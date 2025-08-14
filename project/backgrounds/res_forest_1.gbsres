@@ -8,5 +8,6 @@
   "imageWidth": 280,
   "imageHeight": 280,
   "filename": "res_forest_1.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

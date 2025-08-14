@@ -1,0 +1,54 @@
+{
+  "_resourceType": "scene",
+  "id": "af266c08-97c0-42d6-b9ac-e032437e2113",
+  "_index": 13,
+  "name": "Prologue Sign 1",
+  "backgroundId": "ab81b1a0-01cb-45dc-bca0-f7fa3ba2e853",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 1376,
+  "y": 488,
+  "script": [
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "5857d99c-3984-4174-84ab-b2cfc70449d4"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "2aa0ded2-70f8-42f8-86c1-38f0a03db325",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "e0dc6eca-a349-4835-a7ec-5fbd8f293a97"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

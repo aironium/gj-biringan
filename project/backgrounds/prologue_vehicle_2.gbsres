@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "53f8d66f-279f-40cc-916a-fa6a269be5f2",
+  "name": "prologue_vehicle_2",
+  "symbol": "bg_prologue_vehicle_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "prologue_vehicle_2.png",
+  "tileColors": ""
+}

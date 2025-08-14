@@ -1,0 +1,49 @@
+{
+  "_resourceType": "scene",
+  "id": "1da701ea-6f3a-4e08-9571-ea265b7e1e17",
+  "_index": 10,
+  "name": "Prologue Year",
+  "backgroundId": "1ccf8f9c-141b-4285-8ba1-6a38b5755011",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 5,
+  "symbol": "scene_5",
+  "x": 848,
+  "y": 312,
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30
+      },
+      "id": "19905aba-d7e5-4aab-b780-0d5d2c3da539"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "4bca0a83-a6b3-4049-bdfa-24573dcb51f0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 16
+        },
+        "direction": "",
+        "fadeSpeed": 3
+      },
+      "id": "838a319a-df57-4a38-964d-ee2a7e458bf7"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

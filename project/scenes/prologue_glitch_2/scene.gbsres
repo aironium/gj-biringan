@@ -1,0 +1,41 @@
+{
+  "_resourceType": "scene",
+  "id": "2ed110cd-52ff-462d-abc6-458c2275c5c3",
+  "_index": 16,
+  "name": "Prologue Glitch 2",
+  "backgroundId": "d3f5fefa-ea5a-4ffe-b800-6054b92171b1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 672,
+  "y": 696,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b2b719a6-93ea-479b-ace1-c54b7c66cb1c",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 6
+        },
+        "direction": "",
+        "fadeSpeed": 0
+      },
+      "id": "5e2540dc-508b-4c7c-9532-4b8b6b10b55a"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5ad4c186-2ab3-45bb-9de3-f424b777b292"
+}

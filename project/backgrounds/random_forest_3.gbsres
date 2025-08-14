@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7ff45ef2-a294-483e-b345-2ac40a278926",
+  "name": "random_forest_3",
+  "symbol": "bg_random_forest_3",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "random_forest_3.png",
+  "tileColors": ""
+}
