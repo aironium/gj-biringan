@@ -28,6 +28,15 @@
       "id": "dd9dd7ac-9f4b-4e0e-9b3d-25a7261cdc0c"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "067cf727-92b9-4eb2-8955-472557619c74"
+      },
+      "id": "f4e1ea44-6d32-4429-874f-2796c8c6b99b"
+    }
+  ],
+  "startScript": [
+    {
       "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
       "args": {
         "actorId": "$self$",
@@ -37,14 +46,88 @@
         },
         "y": {
           "type": "expression",
-          "value": "rnd(2)"
+          "value": "rnd(3)"
         }
       },
-      "id": "7e44a3eb-8934-45f3-8c9d-28bfd7bfca98"
+      "id": "ca3fb6da-0a5f-4102-84a0-2f69cd424ed6"
     }
   ],
-  "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 25
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I should head\n back now."
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b91b0b0f-8207-4484-9a77-2f6128ae5001"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Do not forget!",
+                " Press the\n [Start] button!"
+              ],
+              "__section": "text",
+              "avatarId": "b5dd4437-3953-437c-94eb-982d2e5d4307",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8ad4f0b1-05ad-4805-97e7-dda1256a6e8d"
+          }
+        ],
+        "false": []
+      },
+      "id": "dac47833-a712-4142-a8c8-ed58bdbf497e"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

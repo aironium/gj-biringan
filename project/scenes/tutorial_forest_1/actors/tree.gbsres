@@ -28,6 +28,15 @@
       "id": "48da71fc-8f2b-4a98-afa7-2042f00fec1e"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "067cf727-92b9-4eb2-8955-472557619c74"
+      },
+      "id": "aaf95662-7b61-426c-9baa-01ec8121663e"
+    }
+  ],
+  "startScript": [
+    {
       "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
       "args": {
         "actorId": "$self$",
@@ -40,15 +49,14 @@
           "value": "rnd(3)"
         }
       },
-      "id": "f3fe0d41-ad42-49b6-80c4-f1549bd84e48"
+      "id": "477f2d15-7c68-4b28-8444-e3a034128a17"
     }
   ],
-  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "x": 2,
-  "y": 2,
+  "y": 3,
   "_index": 0
 }

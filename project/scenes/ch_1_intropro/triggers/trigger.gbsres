@@ -24,7 +24,7 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -46,7 +46,50 @@
             "id": "b20802aa-b018-4eea-91a7-d9befb16f74d"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " No, I should\n check around\n first."
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5c3ac3e7-27e9-419a-8a46-3fe37ad59099"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 35
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "4483fd9e-4a17-41c9-86da-87a645108d3c"
+          }
+        ]
       },
       "id": "ffa303b0-1fef-4f78-869d-37f4d0e0f5ab"
     }

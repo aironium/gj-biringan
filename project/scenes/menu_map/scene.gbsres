@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8d1e0a07-3508-49ec-9410-1b17c730a735",
+  "_index": 31,
+  "name": "Menu Map",
+  "backgroundId": "1fbbe570-9350-4b71-9c2c-97ebacc4fc6a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "POINTNCLICK",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_32",
+  "x": 1344,
+  "y": 888,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "78bae49e-e22a-4826-aebb-6839f8316cc6"
+}

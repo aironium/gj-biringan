@@ -47,6 +47,16 @@
       "symbol": "var_temp_inv_wood"
     },
     {
+      "id": "9",
+      "name": "chapter_obj_num",
+      "symbol": "var_chapter_obj_num"
+    },
+    {
+      "id": "10",
+      "name": "debug",
+      "symbol": "var_debug"
+    },
+    {
       "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
       "name": "x",
       "symbol": "var_x"
@@ -57,14 +67,34 @@
       "symbol": "var_btn_str_lock"
     },
     {
-      "id": "9",
-      "name": "chapter_obj_num",
-      "symbol": "var_chapter_obj_num"
+      "id": "11",
+      "name": "hut_established",
+      "symbol": "var_hut_established"
     },
     {
-      "id": "10",
-      "name": "debug",
-      "symbol": "var_debug"
+      "id": "73ffac72-c094-434f-9fed-27181ef3afb9__L0",
+      "name": "Savevar",
+      "symbol": "var_savevar"
+    },
+    {
+      "id": "12",
+      "name": "game_days",
+      "symbol": "var_game_days"
+    },
+    {
+      "id": "13",
+      "name": "tut_loop",
+      "symbol": "var_tut_loop"
+    },
+    {
+      "id": "14",
+      "name": "home_tired",
+      "symbol": "var_home_tired"
+    },
+    {
+      "id": "be0d8a4d-10d6-44f7-936d-02d03ac3c809__L0",
+      "name": "Random Forest",
+      "symbol": "var_random_forest"
     }
   ]
 }

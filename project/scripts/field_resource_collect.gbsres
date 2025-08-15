@@ -8,6 +8,11 @@
       "id": "V0",
       "name": "Wood",
       "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
     }
   },
   "actors": {
@@ -39,6 +44,42 @@
         "variable": "V0"
       },
       "id": "c0fd13be-9490-44fd-bf78-610bb6ba7b25"
+    },
+    {
+      "command": "EVENT_LOOP_FOR",
+      "args": {
+        "variable": "V1",
+        "from": {
+          "type": "number",
+          "value": 0
+        },
+        "comparison": "<=",
+        "to": {
+          "type": "rnd",
+          "value": {
+            "type": "expression",
+            "value": "3"
+          }
+        },
+        "operation": "+=",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__label": "Bonus"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "V0"
+            },
+            "id": "04e364b9-c501-48de-8a39-fee539120ea7"
+          }
+        ]
+      },
+      "id": "af6e1f65-ebd5-4d46-9975-cfd8638ac336"
     }
   ]
 }

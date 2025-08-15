@@ -1,0 +1,100 @@
+{
+  "_resourceType": "trigger",
+  "id": "6208baa2-d42c-45ec-a5f6-e84f0fd0417d",
+  "name": "",
+  "prefabId": "",
+  "x": 39,
+  "y": 1,
+  "symbol": "trigger_2",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 39,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "261fb5eb-f5bc-442c-9adc-0b96973e356c",
+        "x": {
+          "type": "number",
+          "value": 2
+        },
+        "y": {
+          "type": "number",
+          "value": 20
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "7cae3b0a-b8c3-44cd-97ef-e36c9f07f8bf"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "13",
+        "flag": 1,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " For some reason\n places seem to",
+                " loop if you go\n beyond the edge",
+                " It could be\n useful...",
+                " Or not."
+              ],
+              "__section": "text",
+              "avatarId": "b5dd4437-3953-437c-94eb-982d2e5d4307",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "6f6cf4e6-5d41-4df6-bf1c-d1e88f0bc425"
+          },
+          {
+            "command": "EVENT_SET_FLAGS",
+            "args": {
+              "variable": "13",
+              "flag1": false,
+              "flag2": true,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "33d9322c-8a4e-4a15-9127-8ef91e54da3d"
+          }
+        ]
+      },
+      "id": "03209258-0d09-4306-80be-d85542a31abc"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

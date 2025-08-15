@@ -44,7 +44,82 @@
     }
   ],
   "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "8"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 25
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I should head\n back now."
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "807147a4-3123-4060-a6c1-02e9c19b981e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " Do not forget!",
+                " Press the\n [Start] button!"
+              ],
+              "__section": "text",
+              "avatarId": "b5dd4437-3953-437c-94eb-982d2e5d4307",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3122fec5-e041-4fe7-a12f-f78e38bbc210"
+          }
+        ],
+        "false": []
+      },
+      "id": "5b9ad33a-9c4a-420d-9484-2ac8a43e1c66"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],

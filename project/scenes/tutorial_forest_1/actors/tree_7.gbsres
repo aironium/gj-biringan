@@ -28,22 +28,30 @@
       "id": "c36368de-0123-49db-89a4-d325b489f13c"
     },
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "067cf727-92b9-4eb2-8955-472557619c74"
+      },
+      "id": "325f1b16-4d02-4821-8f2c-f9a498ed9e14"
+    }
+  ],
+  "startScript": [
+    {
       "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
       "args": {
         "actorId": "$self$",
         "x": {
           "type": "expression",
-          "value": "rnd(2)"
+          "value": "rnd(3)"
         },
         "y": {
           "type": "expression",
           "value": "rnd(3)"
         }
       },
-      "id": "463466b1-a083-4912-8de3-fc50b1283a33"
+      "id": "fdb3ca0e-b5f2-40c6-9bed-3cc977014dea"
     }
   ],
-  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],

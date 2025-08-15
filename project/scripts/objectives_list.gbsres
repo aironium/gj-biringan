@@ -17,7 +17,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 1,
+        "choices": 2,
         "__collapseCase0": false,
         "value0": 1,
         "__collapseCase1": false,
@@ -58,7 +58,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- Go south\n- Collect some\n  wood\n- Return"
+                "- Go south\n- Collect 25 wood\n- Return after\n  collection"
               ],
               "__section": "text",
               "avatarId": "",
@@ -80,7 +80,33 @@
             "id": "20159d52-59c6-4178-8e6a-f2ce5c0d0ae5"
           }
         ],
-        "true1": [],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Go north\n- Interact the\n  hut\n- Save the game"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 10,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "67b3e53a-80bd-4e65-b020-9c5b08bbb4ee"
+          }
+        ],
         "true2": [],
         "true3": [],
         "true4": [],

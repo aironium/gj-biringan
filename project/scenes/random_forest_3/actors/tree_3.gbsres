@@ -1,0 +1,55 @@
+{
+  "_resourceType": "actor",
+  "id": "76fe0038-4fd1-45c8-b77b-7fda93ca7877",
+  "name": "Tree",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1892cdc0-a574-472b-a424-f5ebe8c6350e",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_42",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "6f70504f-b12e-4b4b-a63e-63c511466c37",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "8"
+        }
+      },
+      "id": "9a8c07b8-c1cd-4961-a43b-6496ff6b7877"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "expression",
+          "value": "rnd(3)"
+        },
+        "y": {
+          "type": "expression",
+          "value": "rnd(3)"
+        }
+      },
+      "id": "b63aa227-c9a9-44e6-bfb9-5e4f6116f80b"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 22,
+  "y": 16,
+  "_index": 2
+}

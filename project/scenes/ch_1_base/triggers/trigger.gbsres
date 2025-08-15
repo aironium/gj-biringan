@@ -1,0 +1,98 @@
+{
+  "_resourceType": "trigger",
+  "id": "91bb3f38-fc1d-41df-8525-a978734951a7",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 39,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 40,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "14"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                " I am too tired\n to leave.",
+                " I need to rest\n in my hut."
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "22c00a85-74a4-4273-b79b-8c90f91cb636"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 18
+              },
+              "y": {
+                "type": "number",
+                "value": 35
+              },
+              "moveType": "vertical",
+              "useCollisions": true
+            },
+            "id": "9b2e0cf0-d161-4fe0-afa2-96efe009b4f0"
+          }
+        ],
+        "false": []
+      },
+      "id": "d3e43f0e-f643-4c38-9958-4b57331cb728"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "8d1e0a07-3508-49ec-9410-1b17c730a735",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "direction": "right",
+        "fadeSpeed": 1
+      },
+      "id": "4b6f95b8-004e-4a28-91c0-b2df1cbb3f1c"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

@@ -21,13 +21,14 @@
       "args": {
         "text": [
           "Maybe I should\nbuild a hut?",
-          "I could probably\nget some wood."
+          "I must get\nsome wood.",
+          "25 pieces should\nbe enough"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
         "textHeight": 5,
         "position": "bottom",
@@ -49,7 +50,8 @@
         "value": {
           "type": "number",
           "value": 1
-        }
+        },
+        "__label": "Chapter Objective Update"
       },
       "id": "b94b65d3-4440-46e7-87a2-2e6a00999376"
     }

@@ -13,8 +13,8 @@
   "collisions": "002a+105+007+105+0017+105+007+105+00d+104+006+105+007+105+00d+104+006+105+003+0f2+0014+104+00d+0f3+0014+104+00c+0f3+01!005+0fb+004+104+00a+0f4+01!005+0f3+017+0f4+00f+0f3+012+006+0f!012+007+012+0f2+00c+0f5+01!008+01!00b+0f3+009+0f4+013+0015+01!0f3+008+014+0011+105+003+01!0f3+001c+105+004+01!0f3+00c+0f!00e+105+005+01!0f2+00b+0f3+0018+0f3+00a+0f3+0018+01!0f2+00a+0f2+003+105+0012+0f3+009+0f2+003+105+0012+01!0f2+009+0f2+003+105+0013+0f2+009+0f3+002+105+0013+0f2+009+01!0f2+002+105+0013+0f2+00a+0f3+00f+106+004+0f2+00a+01!0f3+00e+106+003+0f3+00b+01!0f3+00d+106+003+01!0f!01!00c+01!0f3+00c+106+004+01!00e+01!0f3+00b+106+00c+104+004+01!0f4+001b+104+005+0f7+0018+104+005+01!0fe+0010+104+006+013+0fc+00f+104+009+01c+007+0f!01!0025+0f!01!0025+0f!01!0023+0f3+01!0015+0f2+008+0f7+01!0016+0fc+015+0017+01c+007+105+0023+105+0023+105+002a+",
   "autoFadeSpeed": 1,
   "symbol": "scene_31",
-  "x": 672,
-  "y": 1608,
+  "x": 1016,
+  "y": 1160,
   "script": [
     {
       "command": "EVENT_GROUP",
@@ -59,11 +59,25 @@
       "id": "d05c292f-4200-46f2-a38d-b47150a4513d"
     },
     {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "L0",
+        "flag": 0,
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "efa702bd-d725-4a4e-9b9e-0a713bc13f51"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
           " This is a \n portion of a\n forest",
           " Collect woods\n on scattered\n trees around!",
+          " Tress may give\n more than one!",
           " Interact\n objects by\n pressing [A]",
           " To go back to\n your base,\n go to menu!",
           " Check your menu\n by pressing\n [Start]",
@@ -85,9 +99,34 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": false
       },
       "id": "61be1b19-329c-4ba4-b059-33f36cfcad1b"
+    },
+    {
+      "command": "EVENT_ADD_FLAGS",
+      "args": {
+        "variable": "L0",
+        "flag1": true,
+        "flag2": false,
+        "flag3": false,
+        "flag4": false,
+        "flag5": false,
+        "flag6": false,
+        "flag7": false,
+        "flag8": false,
+        "flag9": false,
+        "flag10": false,
+        "flag11": false,
+        "flag12": false,
+        "flag13": false,
+        "flag14": false,
+        "flag15": false,
+        "flag16": false,
+        "__collapse": true
+      },
+      "id": "39709e74-bb32-41a5-a106-5e92eced87ca"
     }
   ],
   "playerHit1Script": [],

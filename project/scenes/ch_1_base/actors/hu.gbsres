@@ -1,0 +1,167 @@
+{
+  "_resourceType": "actor",
+  "id": "73ffac72-c094-434f-9fed-27181ef3afb9",
+  "name": "Hu",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "b3d1d036-0286-439c-b69c-4633b1cbcac0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_16",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " Save game?"
+        ],
+        "__section": "text",
+        "avatarId": "9768a921-2fd0-4426-a293-db38579b15a3",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5107bbce-e2d5-46c3-bd37-d15d75c4ebed"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "Yes",
+        "option2": "No",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "menu",
+        "cancelOnLastOption": true
+      },
+      "id": "06042d3c-63c7-4d9f-ab61-1e0618082ef2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SAVE_DATA",
+            "args": {
+              "saveSlot": 0,
+              "__scriptTabs": "save"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      " Game Saved!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9768a921-2fd0-4426-a293-db38579b15a3",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "16684ffb-9674-4e9e-a474-13a0a031a2d8"
+                },
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "12"
+                  },
+                  "id": "e4e62157-1034-441b-8984-77ae975f0474"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "14",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "d70c6fc0-129b-4615-a86b-60fc40a5abe0"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "a1a7c95a-8585-45a3-93c3-37e3eb21a710",
+                    "x": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 20
+                    },
+                    "direction": "down",
+                    "fadeSpeed": 3
+                  },
+                  "id": "19161144-0d1c-48c8-b85a-5d46c8d59399"
+                }
+              ],
+              "load": []
+            },
+            "id": "cd4a3d1d-75f1-464e-8be8-0345f51d5bb5"
+          }
+        ],
+        "false": []
+      },
+      "id": "b4750155-6797-43c5-a9ff-01ea677451ed"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 16,
+  "_index": 0
+}
