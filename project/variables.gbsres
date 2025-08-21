@@ -57,24 +57,9 @@
       "symbol": "var_debug"
     },
     {
-      "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
-      "name": "x",
-      "symbol": "var_x"
-    },
-    {
-      "id": "209955c1-6b38-4b4c-9c65-b8d967abff01__L0",
-      "name": "btn_str_lock",
-      "symbol": "var_btn_str_lock"
-    },
-    {
       "id": "11",
       "name": "hut_established",
       "symbol": "var_hut_established"
-    },
-    {
-      "id": "73ffac72-c094-434f-9fed-27181ef3afb9__L0",
-      "name": "Savevar",
-      "symbol": "var_savevar"
     },
     {
       "id": "12",
@@ -92,9 +77,29 @@
       "symbol": "var_home_tired"
     },
     {
+      "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
+      "name": "x",
+      "symbol": "var_x"
+    },
+    {
+      "id": "209955c1-6b38-4b4c-9c65-b8d967abff01__L0",
+      "name": "btn_str_lock",
+      "symbol": "var_btn_str_lock"
+    },
+    {
+      "id": "73ffac72-c094-434f-9fed-27181ef3afb9__L0",
+      "name": "Savevar",
+      "symbol": "var_savevar"
+    },
+    {
       "id": "be0d8a4d-10d6-44f7-936d-02d03ac3c809__L0",
       "name": "Random Forest",
       "symbol": "var_random_forest"
+    },
+    {
+      "id": "5c695230-2faa-4feb-bff3-8fa627b8a70d__L0",
+      "name": "Random Quarry",
+      "symbol": "var_random_quarry"
     }
   ]
 }

@@ -33,7 +33,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "MY EYES!"
+          "WHAT SHOULD I\nDO?"
         ],
         "__section": "text",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
@@ -53,6 +53,81 @@
         "closeDelayFrames": 30
       },
       "id": "9e668bc1-03fe-452c-b611-2a1d6adeb8d9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "JUMP AND SAVE\nYOURSELF!"
+        ],
+        "__section": "text",
+        "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4320e502-2039-4f33-b9fe-9932a84a61f6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What about you?"
+        ],
+        "__section": "text",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "147cdbdf-c202-48e6-860f-c6fd64abb2d7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "JUST JUMP!"
+        ],
+        "__section": "text",
+        "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": true,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "aa370b82-96ce-4dbd-b93c-e0e4e6f5efd9"
     },
     {
       "command": "EVENT_SWITCH_SCENE",

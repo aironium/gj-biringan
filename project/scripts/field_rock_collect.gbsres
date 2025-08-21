@@ -1,0 +1,138 @@
+{
+  "_resourceType": "script",
+  "id": "25c6603f-8ea5-4fff-ba1b-93379c780ad6",
+  "name": "Field Rock Collect",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Variable A",
+      "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": true
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Variable C",
+      "passByReference": true
+    },
+    "V3": {
+      "id": "V3",
+      "name": "Variable D",
+      "passByReference": true
+    }
+  },
+  "actors": {
+    "0": {
+      "id": "0",
+      "name": "Actor A"
+    }
+  },
+  "symbol": "script_10",
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "0"
+      },
+      "id": "d6e8319b-cf2d-4ff9-ab82-f0a8d12b72c2"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "488b7237-9718-4bc5-91b8-18bf482e2a96"
+      },
+      "id": "6ddb53b1-bab9-424e-8d2b-c02bc5fb45c8"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V0"
+      },
+      "id": "ba9036e3-f369-4734-9590-e2a5450625f8"
+    },
+    {
+      "command": "EVENT_LOOP_FOR",
+      "args": {
+        "variable": "V1",
+        "from": {
+          "type": "number",
+          "value": 0
+        },
+        "comparison": "<=",
+        "to": {
+          "type": "rnd",
+          "value": {
+            "type": "expression",
+            "value": "3"
+          }
+        },
+        "operation": "+=",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__label": "Bonus"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "V0"
+            },
+            "id": "9eb46e41-4abf-4192-816c-e6184f751f4a"
+          }
+        ]
+      },
+      "id": "94c63add-975c-4b33-98df-e68ee7227081"
+    },
+    {
+      "command": "EVENT_INC_VALUE",
+      "args": {
+        "variable": "V2"
+      },
+      "id": "231720da-8a00-479f-ace8-fcd741e1c799"
+    },
+    {
+      "command": "EVENT_LOOP_FOR",
+      "args": {
+        "variable": "V3",
+        "from": {
+          "type": "number",
+          "value": 0
+        },
+        "comparison": "<=",
+        "to": {
+          "type": "rnd",
+          "value": {
+            "type": "expression",
+            "value": "1"
+          }
+        },
+        "operation": "+=",
+        "value": {
+          "type": "number",
+          "value": 1
+        },
+        "__label": "Bonus"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "V2"
+            },
+            "id": "dd2b8d98-2c2f-424c-bef7-d6bb4f826dac"
+          }
+        ]
+      },
+      "id": "b73d18ff-1662-467e-88f0-d5cd4fbcf7b1"
+    }
+  ]
+}

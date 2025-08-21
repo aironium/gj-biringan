@@ -93,11 +93,11 @@
               "sceneId": "e95783c5-1b36-4cfd-8360-420b32175478",
               "x": {
                 "type": "number",
-                "value": 12
+                "value": 13
               },
               "y": {
                 "type": "number",
-                "value": 34
+                "value": 36
               },
               "direction": "up",
               "fadeSpeed": "2"
@@ -110,11 +110,11 @@
               "sceneId": "f8475052-32e0-4790-b6a3-eff81271a541",
               "x": {
                 "type": "number",
-                "value": 8
+                "value": 20
               },
               "y": {
                 "type": "number",
-                "value": 3
+                "value": 2
               },
               "direction": "down",
               "fadeSpeed": "2"
@@ -147,6 +147,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 5,
-  "y": 14,
+  "y": 16,
   "_index": 0
 }

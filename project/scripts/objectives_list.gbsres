@@ -17,10 +17,10 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 2,
-        "__collapseCase0": false,
+        "choices": 4,
+        "__collapseCase0": true,
         "value0": 1,
-        "__collapseCase1": false,
+        "__collapseCase1": true,
         "value1": 2,
         "__collapseCase2": false,
         "value2": 3,
@@ -107,8 +107,60 @@
             "id": "67b3e53a-80bd-4e65-b020-9c5b08bbb4ee"
           }
         ],
-        "true2": [],
-        "true3": [],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Collect more\n  wood for now"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 10,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bfd93184-4263-479d-84ad-06676b3731df"
+          }
+        ],
+        "true3": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Go to the quarry\n  site\n- Collect stones\n- Return to base"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 10,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "4106c741-f889-4e1b-bfcf-46e079cd3b9c"
+          }
+        ],
         "true4": [],
         "true5": [],
         "true6": [],

@@ -1,0 +1,65 @@
+{
+  "_resourceType": "scene",
+  "id": "1a8a531d-e052-46bb-9baa-46a4042f13ba",
+  "_index": 33,
+  "name": "Random_Quarry_2",
+  "backgroundId": "740da315-3e01-445c-869a-2ff04b32ddb5",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0050+0f!0026+0f3+0024+0f2+00!0f3+0020+0f3+004+0f2+001e+0f2+007+0f3+001a+0f3+00a+0f4+0014+0f4+00f+0f6+00a+0f6+0059+0f!0026+0f3+0024+0f2+00!0f2+0022+0f2+003+0f2+0020+0f2+005+0f2+001e+0f2+007+0f3+001a+0f3+00a+0f2+0018+0f2+00d+0f4+0012+0f4+0011+0f5+00a+0f5+005a+0f!0026+0f4+0022+0f3+002+0f2+0020+0f2+005+0f2+001e+0f2+007+0f2+001c+0f2+009+0f3+0018+0f3+00c+0f6+00e+0f6+0013+0f2+00c+0f2+00c+0f!0026+0f3+0024+0f2+00!0f2+0022+0f2+003+0f2+0020+0f2+005+0f3+001c+0f3+008+0f3+0018+0f3+00c+0f3+0014+0f3+0010+0f4+00e+0f4+0015+0f3+00a+0f3+0034+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 1352,
+  "y": 1904,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "5fa2bff9-fa3e-434e-a8f5-89341bb4505a"
+                  },
+                  "id": "ed56af2b-a85a-49e5-990d-9930fcc86221"
+                }
+              ]
+            },
+            "id": "621a44bb-21e2-4a36-ad48-aefbe1702f22"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "9f5a9511-a5dd-42d6-964d-1131110f805d"
+          }
+        ]
+      },
+      "id": "f4bded96-dc3b-4df1-81c2-d2f7268037be"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

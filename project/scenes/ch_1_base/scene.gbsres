@@ -13,7 +13,7 @@
   "collisions": "0f19f+00c+0f19+0012+0f15+0014+0f12+0017+0f10+0019+0fe+001b+0fc+001d+0fa+001f+0f8+0021+0f6+0022+0f5+0024+0f4+0024+0f4+0025+0f3+0025+0f2+0026+0f2+0026+0f2+0026+0f!00208+",
   "autoFadeSpeed": 1,
   "symbol": "scene_28",
-  "x": 680,
+  "x": 344,
   "y": 1528,
   "script": [
     {
@@ -113,7 +113,7 @@
         "variable": "11",
         "flag": 0,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [],
@@ -180,7 +180,7 @@
                 "value": 2
               },
               "__label": "Chapter Objective Update",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b3acb557-5226-4fb2-9b53-16eb4c74511c"
           },

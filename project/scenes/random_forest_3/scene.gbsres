@@ -15,7 +15,50 @@
   "symbol": "scene_11",
   "x": 1688,
   "y": 1528,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "5fa2bff9-fa3e-434e-a8f5-89341bb4505a"
+                  },
+                  "id": "b5642faf-eb43-4b33-a0ac-6b32e6fdbddc"
+                }
+              ]
+            },
+            "id": "fdda6fa8-0431-49a9-8f0f-71b11fbb160d"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "397a9dc8-8416-470f-bc38-9a8c47ec7379"
+          }
+        ]
+      },
+      "id": "64814810-b0c5-42d3-8c19-8a1a3f10e1f2"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

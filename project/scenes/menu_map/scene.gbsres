@@ -13,9 +13,29 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_32",
-  "x": 1344,
-  "y": 888,
-  "script": [],
+  "x": 784,
+  "y": 2000,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "cda5ffb0-3e28-44ab-b817-12c52d38133b"
+          }
+        ]
+      },
+      "id": "7b3f9d24-a0d3-4e69-addf-9fc4f21f4704"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

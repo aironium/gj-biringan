@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "46777a38-5399-44e4-878d-c544c351f8c5",
+  "name": "random_quarry_1",
+  "symbol": "bg_random_quarry_1",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "random_quarry_1.png",
+  "tileColors": "",
+  "autoColor": false
+}

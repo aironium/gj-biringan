@@ -20,15 +20,13 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Wood Carried:\n$08$",
-          "Stone Carried:\n$07$",
-          "Metal Carried:\n$05$"
+          "Wood Carried:\n$08$"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "2f0e245f-661f-4b28-bb3d-9a8b5259e1d4",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
         "textHeight": 5,
         "position": "bottom",
@@ -42,6 +40,56 @@
         "closeDelayFrames": 30
       },
       "id": "62a08fe1-3a56-46b7-a3b8-c84d3014e0c4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Stone Carried:\n$07$"
+        ],
+        "__section": "text",
+        "avatarId": "f3f34105-9372-48bc-9bc7-b22748da4b54",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "28d99a5f-aaf9-453c-bd2d-7651ae5b6090"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Metal Carried:\n$05$"
+        ],
+        "__section": "text",
+        "avatarId": "b945e517-efcf-401d-9f50-b0e1dd414654",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "e2c6900e-95cb-414c-90e5-a16d5097aa57"
     },
     {
       "command": "EVENT_SCENE_POP_STATE",

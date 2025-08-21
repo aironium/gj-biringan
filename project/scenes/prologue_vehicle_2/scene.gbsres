@@ -71,7 +71,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "I can't!"
+          "I can't!",
+          "I lost control!"
         ],
         "__section": "text",
         "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",

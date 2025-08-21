@@ -56,7 +56,8 @@
         "option8": "",
         "cancelOnB": true,
         "layout": "menu",
-        "cancelOnLastOption": true
+        "cancelOnLastOption": true,
+        "__collapse": true
       },
       "id": "06042d3c-63c7-4d9f-ab61-1e0618082ef2"
     },
@@ -74,7 +75,8 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [

@@ -1,0 +1,67 @@
+{
+  "_resourceType": "actor",
+  "id": "865a099c-9ced-48a3-b5ad-04fa372b0afc",
+  "name": "Stone",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "716e55e3-28d9-4620-8576-903046997384",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_70",
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "25c6603f-8ea5-4fff-ba1b-93379c780ad6",
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "7"
+        },
+        "$variable[V2]$": {
+          "type": "variable",
+          "value": "6"
+        },
+        "$variable[V1]$": {
+          "type": "variable",
+          "value": "L0"
+        },
+        "$variable[V3]$": {
+          "type": "variable",
+          "value": "L1"
+        }
+      },
+      "id": "60dd0702-1151-4548-9906-c82d91c6906f"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_ACTOR_SET_POSITION_RELATIVE",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "expression",
+          "value": "rnd(3)"
+        },
+        "y": {
+          "type": "expression",
+          "value": "rnd(3)"
+        }
+      },
+      "id": "36b0662c-5baf-472b-9e4d-2f81b5d213f2"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 27,
+  "y": 24,
+  "_index": 8
+}
