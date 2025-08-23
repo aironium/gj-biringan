@@ -1,0 +1,59 @@
+{
+  "_resourceType": "actor",
+  "id": "eab9d391-73d2-4957-8435-eaf0c56c0238",
+  "name": "Oven",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f0606370-8a2b-4748-83c6-02615762071d",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_128",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 32
+              },
+              "y": {
+                "type": "number",
+                "value": 26
+              }
+            },
+            "id": "10f6d876-2ee0-4ab5-aa68-e4243ee5e27a"
+          }
+        ],
+        "false": []
+      },
+      "id": "8b02bab6-3038-4c6d-933b-26c2461d3c47"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 5,
+  "y": 3,
+  "_index": 3
+}

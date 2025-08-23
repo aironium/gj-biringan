@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "5d8ac56e-4ed3-48b8-9dd1-c298ecc7a1a3",
-  "name": "Stone",
+  "id": "628b6975-6e3a-48a4-b697-8c67402f0e84",
+  "name": "Tree",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "716e55e3-28d9-4620-8576-903046997384",
+  "spriteSheetId": "1892cdc0-a574-472b-a424-f5ebe8c6350e",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,30 +14,18 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_88",
+  "symbol": "actor_121",
   "script": [
     {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "25c6603f-8ea5-4fff-ba1b-93379c780ad6",
+        "customEventId": "6f70504f-b12e-4b4b-a63e-63c511466c37",
         "$variable[V0]$": {
           "type": "variable",
-          "value": "7"
-        },
-        "$variable[V2]$": {
-          "type": "variable",
-          "value": "6"
-        },
-        "$variable[V1]$": {
-          "type": "variable",
-          "value": "L0"
-        },
-        "$variable[V3]$": {
-          "type": "variable",
-          "value": "L1"
+          "value": "8"
         }
       },
-      "id": "ec62d27a-b0ed-4511-96b6-8f9ed1e3eb6a"
+      "id": "56ea054e-b3bf-43bd-a74e-31cf87ec6337"
     }
   ],
   "startScript": [
@@ -54,14 +42,14 @@
           "value": "rnd(3)"
         }
       },
-      "id": "745baa27-7947-4976-8fb2-ea8febe45e5a"
+      "id": "17159c0e-923f-47e2-8a9d-2af1aa19cc11"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 5,
-  "y": 36,
+  "x": 30,
+  "y": 30,
   "_index": 13
 }

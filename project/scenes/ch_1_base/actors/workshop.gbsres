@@ -1,0 +1,59 @@
+{
+  "_resourceType": "actor",
+  "id": "659dd814-ae25-4665-8a7e-fbaaad0bc408",
+  "name": "Workshop",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "85440e21-198c-4db6-8427-04800d3bae24",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_89",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "16"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "659dd814-ae25-4665-8a7e-fbaaad0bc408",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 26
+              }
+            },
+            "id": "9cb1c906-ed23-4451-af15-3909edf93be7"
+          }
+        ],
+        "false": []
+      },
+      "id": "c22d2770-84a8-4efe-a843-2282a8b19874"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 1,
+  "y": 3,
+  "_index": 2
+}

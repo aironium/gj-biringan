@@ -112,7 +112,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "- Collect more\n  wood for now"
+                "- Collect more\n  resources for\n  the meantime\n- Improve the base"
               ],
               "__section": "text",
               "avatarId": "",

@@ -18,18 +18,18 @@
     },
     {
       "id": "3",
-      "name": "base_inv_wood",
-      "symbol": "var_base_inv_wood"
+      "name": "inv_bullets",
+      "symbol": "var_inv_bullets"
     },
     {
       "id": "4",
-      "name": "base_inv_stone",
-      "symbol": "var_base_inv_stone"
+      "name": "inv_keys",
+      "symbol": "var_inv_keys"
     },
     {
       "id": "5",
-      "name": "base_inv_metal",
-      "symbol": "var_base_inv_metal"
+      "name": "inv_pills",
+      "symbol": "var_inv_pills"
     },
     {
       "id": "6",
@@ -100,6 +100,36 @@
       "id": "5c695230-2faa-4feb-bff3-8fa627b8a70d__L0",
       "name": "Random Quarry",
       "symbol": "var_random_quarry"
+    },
+    {
+      "id": "15",
+      "name": "temp_inv_herb",
+      "symbol": "var_temp_inv_herb"
+    },
+    {
+      "id": "16",
+      "name": "workshop established",
+      "symbol": "var_workshop_established"
+    },
+    {
+      "id": "28915368-7956-497f-ba5a-850f3be18336__L0",
+      "name": "ask",
+      "symbol": "var_ask"
+    },
+    {
+      "id": "17",
+      "name": "oven established",
+      "symbol": "var_oven_established"
+    },
+    {
+      "id": "440debd2-6597-4244-9f80-2a1daba23019__L0",
+      "name": "ask",
+      "symbol": "var_ask_1"
+    },
+    {
+      "id": "440debd2-6597-4244-9f80-2a1daba23019__L1",
+      "name": "ask2",
+      "symbol": "var_ask2"
     }
   ]
 }

@@ -45,6 +45,31 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
+          "Herb Carried:\n$15$"
+        ],
+        "__section": "text",
+        "avatarId": "06b30fed-6387-4cb5-9fec-f04126636a52",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b735b4e6-0d4f-4e3b-b493-6ff05f4d6874"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
           "Stone Carried:\n$07$"
         ],
         "__section": "text",
@@ -70,7 +95,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Metal Carried:\n$05$"
+          "Metal Carried:\n$06$"
         ],
         "__section": "text",
         "avatarId": "b945e517-efcf-401d-9f50-b0e1dd414654",

@@ -28,6 +28,13 @@
       "id": "e31d92cb-6a56-426d-9c7c-9f7c2bb7a2fd"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "83b6cdfa-a948-40bf-85ee-0dd1d9da3dda"
+      },
+      "id": "680698da-dd3d-4606-81e3-dec9e723a222"
+    },
+    {
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "L0",

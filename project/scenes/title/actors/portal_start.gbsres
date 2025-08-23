@@ -31,7 +31,7 @@
             "command": "EVENT_IF_SAVED_DATA",
             "args": {
               "saveSlot": 2,
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -74,6 +74,11 @@
                   },
                   "children": {
                     "true": [
+                      {
+                        "command": "EVENT_MUSIC_STOP",
+                        "args": {},
+                        "id": "868b199f-0a5d-4fb7-878b-2f6325848171"
+                      },
                       {
                         "command": "EVENT_LOAD_DATA",
                         "args": {
@@ -202,6 +207,11 @@
                   },
                   "children": {
                     "true": [
+                      {
+                        "command": "EVENT_MUSIC_STOP",
+                        "args": {},
+                        "id": "cb1ec750-33c8-45a4-b1bc-a11ef277bde6"
+                      },
                       {
                         "command": "EVENT_SWITCH_SCENE",
                         "args": {

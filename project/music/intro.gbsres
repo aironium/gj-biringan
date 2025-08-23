@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3bcba244-6592-4a94-a70e-7e40f73a468c",
+  "name": "intro",
+  "symbol": "song_intro",
+  "filename": "intro.mod",
+  "settings": {},
+  "type": "mod"
+}

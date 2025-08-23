@@ -76,14 +76,14 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
           {
             "command": "EVENT_SAVE_DATA",
             "args": {
-              "saveSlot": 0,
+              "saveSlot": 2,
               "__scriptTabs": "save"
             },
             "children": {

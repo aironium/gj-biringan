@@ -17,6 +17,13 @@
   "symbol": "actor_60",
   "script": [
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "9fbf0d31-075a-4ea4-89a2-c7f2c83f47f8"
+      },
+      "id": "b9539125-d3b7-48e1-b1ee-089fe9f5f752"
+    },
+    {
       "command": "EVENT_SET_VALUE",
       "args": {
         "variable": "L0",

@@ -58,6 +58,11 @@
         "fadeSpeed": 0
       },
       "id": "c4e1b746-1848-4a32-a4b4-955b7fa40466"
+    },
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "67d71966-43f1-47e4-ba17-84bb7e106722"
     }
   ],
   "playerHit1Script": [],
