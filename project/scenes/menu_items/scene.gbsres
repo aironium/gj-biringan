@@ -17,6 +17,47 @@
   "y": 888,
   "script": [
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "16"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pills Carried:\n$21$"
+              ],
+              "__section": "text",
+              "avatarId": "410559c2-16c1-4c12-8fca-8d6133232ec7",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "354517e0-968f-4e61-91c8-08a681f342d9"
+          }
+        ],
+        "false": []
+      },
+      "id": "f11ad81e-26ec-4179-bdbe-4f363360d037"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -115,6 +156,47 @@
         "closeDelayFrames": 30
       },
       "id": "e2c6900e-95cb-414c-90e5-a16d5097aa57"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "17"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Alloys Carried:\n$20$"
+              ],
+              "__section": "text",
+              "avatarId": "0259466f-afc5-4d6a-96de-e0935bd708a8",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ba0c7529-5148-41cb-b700-9e18905923d5"
+          }
+        ],
+        "false": []
+      },
+      "id": "b553b481-a19c-4ce1-b989-de821417e143"
     },
     {
       "command": "EVENT_SCENE_POP_STATE",

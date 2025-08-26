@@ -17,7 +17,7 @@
       "command": "EVENT_SWITCH",
       "args": {
         "variable": "V0",
-        "choices": 4,
+        "choices": 6,
         "__collapseCase0": true,
         "value0": 1,
         "__collapseCase1": true,
@@ -161,8 +161,60 @@
             "id": "4106c741-f889-4e1b-bfcf-46e079cd3b9c"
           }
         ],
-        "true4": [],
-        "true5": [],
+        "true4": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Go to the south\n  west area\n- Investigate"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 10,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a1506e15-152d-4855-be99-0c25e851632d"
+          }
+        ],
+        "true5": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "- Go back home\n  and prepare\n- Utilize your\n  workshop and\n  oven."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 10,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": false,
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8b296e17-4910-4559-a38e-17d83ac4867a"
+          }
+        ],
         "true6": [],
         "true7": [],
         "true8": [],

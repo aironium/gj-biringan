@@ -17,7 +17,7 @@
         "__collapseCase1": false,
         "value1": 7,
         "__collapseCase2": false,
-        "value2": 3,
+        "value2": 15,
         "__collapseCase3": false,
         "value3": 4,
         "__collapseCase4": false,
@@ -188,7 +188,58 @@
             "id": "cd7b508e-b252-4f0c-ba5e-ddab01e39546"
           }
         ],
-        "true2": [],
+        "true2": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "8d0a9a3c-dde7-4f28-9783-9a1dec57011a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "WHAT WAS THAT?!",
+                "Oh my head...",
+                "That was awful!",
+                "I need to know\nmore about it!"
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "e853637c-31dc-4f44-ad29-37b0c66d608b"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "9",
+              "value": {
+                "type": "number",
+                "value": 5
+              },
+              "__label": "Chapter Objective Update",
+              "__collapse": false
+            },
+            "id": "8c609736-481e-4c1d-9962-a806a61bcb77"
+          }
+        ],
         "true3": [],
         "true4": [],
         "true5": [],
