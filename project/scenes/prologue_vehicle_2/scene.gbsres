@@ -33,7 +33,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Wait, stop."
+          "Wait, stop, the\nroad is very\nbumpy."
         ],
         "__section": "text",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
@@ -71,8 +71,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
+          "Yeah, yeah.",
+          "...",
           "I can't!",
-          "I lost control!"
+          "I lost control!\nHold on!"
         ],
         "__section": "text",
         "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",

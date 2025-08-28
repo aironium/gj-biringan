@@ -83,7 +83,7 @@
           {
             "command": "EVENT_SAVE_DATA",
             "args": {
-              "saveSlot": 2,
+              "saveSlot": 0,
               "__scriptTabs": "save"
             },
             "children": {

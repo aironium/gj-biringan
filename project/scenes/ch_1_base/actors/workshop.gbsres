@@ -15,7 +15,260 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_89",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 15
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "Build Slingshot",
+              "option2": "Build Armor",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue"
+            },
+            "id": "51dd55a0-1a95-4bbb-9bd0-3716c53bde0f"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "not",
+                      "value": {
+                        "type": "variable",
+                        "value": "24"
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "24",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "397048f8-3ff5-4bbf-aabb-c79638ec7a2b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You just made a\nslingshot!",
+                            "Always remember\nthat it uses \nstones!",
+                            "Do not forget\nto regularly\nstock up!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "94ffbd97-2cfa-49f8-af60-da6ce0cd9528",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 2,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "9e2aa961-ad14-4604-8364-2afe062ecad3"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You already\nhave one!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "94ffbd97-2cfa-49f8-af60-da6ce0cd9528",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 2,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "44b5a877-1218-4fec-b85e-ad1a687f6bf1"
+                      }
+                    ]
+                  },
+                  "id": "909f0154-8d55-4e4f-aaeb-192d29463431"
+                }
+              ],
+              "false": []
+            },
+            "id": "1332a16b-1c11-4369-b2dc-78a96fb56225"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lt",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "18"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You just made a\nbasic vest!",
+                            "This will help\nfor a bit.",
+                            "You will need\none today!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "3d902fb0-9b7f-49b8-b8aa-088735dbd629",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 2,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "10f0f811-2932-44bc-bc78-47be641aaaa7"
+                      },
+                      {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "18"
+                        },
+                        "id": "26bb8668-2246-4324-b2f1-4a7a2daa76c4"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "You already\nhave one!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "3d902fb0-9b7f-49b8-b8aa-088735dbd629",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 2,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7f0708d3-ae3d-408a-8827-1ee751eecd83"
+                      }
+                    ]
+                  },
+                  "id": "10c4a48b-f393-4092-b8b4-44f734b85fa9"
+                }
+              ],
+              "false": []
+            },
+            "id": "994b3932-c457-4efc-be65-c4b16c58323b"
+          }
+        ],
+        "false": []
+      },
+      "id": "5996b2ec-19ae-4186-86d6-69c95bea3de1"
+    }
+  ],
   "startScript": [
     {
       "command": "EVENT_IF",

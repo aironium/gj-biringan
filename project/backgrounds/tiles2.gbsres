@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "220f67be-a4ae-483c-b4de-fe3dba162fd8",
+  "name": "tiles2",
+  "symbol": "bg_tiles2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "tiles2.png",
+  "tileColors": ""
+}

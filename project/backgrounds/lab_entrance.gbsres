@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "05c939e1-8ca9-445b-ad1c-2861417fe2dc",
+  "name": "lab_entrance",
+  "symbol": "bg_lab_entrance",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "lab_entrance.png",
+  "tileColors": ""
+}

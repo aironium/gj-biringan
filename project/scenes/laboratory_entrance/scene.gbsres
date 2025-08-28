@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "db48fdb3-fbee-440e-a81a-0457f9f6dcdc",
+  "_index": 37,
+  "name": "Laboratory Entrance",
+  "backgroundId": "05c939e1-8ca9-445b-ad1c-2861417fe2dc",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0fb+00!0f10+00!0fb+00!0f2+006+0f2+00!0f10+00d+0f2+006+0f2+00!0f10+00d+0f2+009+0f10+002+0f2+004+0f2+003+0f2+009+0f10+002+0f2+004+0f2+00e+0f10+008+0f2+0026+0f2+004b+0f2+0026+0f2+007+0f2+0026+0f2+0047+0f2+009+0f2+001b+0f2+005+0f2+002+0f2+0014+0f2+00c+0f2+0018+0f2+00c+0f2+001c+0f2+008+0f2+006+0f2+0014+0f2+0010+0f2+00e+0f2+004+0f2+0020+0f2+004+0f2+0020+0f2+00d+0f2+003+0f2+0012+0f2+00d+0f2+003+0f2+001c+0f2+001f+0f2+005+0f2+0013+0f2+00a+0f2+001a+0f2+003d+0f3+005+0f20+00!0f2+0026+0f2+0026+0f2+0026+0f2+0075+0f1c+005+0f7+00c8+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_38",
+  "x": 1008,
+  "y": 2632,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+}

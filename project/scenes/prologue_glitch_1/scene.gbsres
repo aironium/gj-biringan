@@ -17,32 +17,6 @@
   "y": 696,
   "script": [
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Wait, where is\nthe ground?",
-          "I'M FALLING!"
-        ],
-        "__section": "text",
-        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 2,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": true,
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "4ac99c5e-d7f4-4186-9f21-461dd057ec50"
-    },
-    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "2ed110cd-52ff-462d-abc6-458c2275c5c3",

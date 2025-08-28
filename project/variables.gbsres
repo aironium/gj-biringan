@@ -92,6 +92,46 @@
       "symbol": "var_oven_established"
     },
     {
+      "id": "18",
+      "name": "level_armor",
+      "symbol": "var_level_armor"
+    },
+    {
+      "id": "19",
+      "name": "level_weapon",
+      "symbol": "var_level_weapon"
+    },
+    {
+      "id": "20",
+      "name": "temp_inv_alloy",
+      "symbol": "var_temp_inv_alloy"
+    },
+    {
+      "id": "21",
+      "name": "temp_inv_pill",
+      "symbol": "var_temp_inv_pill"
+    },
+    {
+      "id": "22",
+      "name": "game_dreams",
+      "symbol": "var_game_dreams"
+    },
+    {
+      "id": "23",
+      "name": "peak_found",
+      "symbol": "var_peak_found"
+    },
+    {
+      "id": "24",
+      "name": "inv_sling",
+      "symbol": "var_inv_sling"
+    },
+    {
+      "id": "25",
+      "name": "inv_gun",
+      "symbol": "var_inv_gun"
+    },
+    {
       "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
       "name": "x",
       "symbol": "var_x"
@@ -132,39 +172,14 @@
       "symbol": "var_ask2"
     },
     {
-      "id": "18",
-      "name": "level_armor",
-      "symbol": "var_level_armor"
-    },
-    {
-      "id": "19",
-      "name": "level_weapon",
-      "symbol": "var_level_weapon"
-    },
-    {
-      "id": "20",
-      "name": "temp_inv_alloy",
-      "symbol": "var_temp_inv_alloy"
-    },
-    {
-      "id": "21",
-      "name": "temp_inv_pill",
-      "symbol": "var_temp_inv_pill"
-    },
-    {
-      "id": "22",
-      "name": "game_dreams",
-      "symbol": "var_game_dreams"
-    },
-    {
       "id": "5317e0af-5978-4e97-b4b9-25bf9316e438__L0",
       "name": "Random Forest",
       "symbol": "var_random_forest_0"
     },
     {
-      "id": "23",
-      "name": "peak_found",
-      "symbol": "var_peak_found"
+      "id": "659dd814-ae25-4665-8a7e-fbaaad0bc408__L0",
+      "name": "wrkshp",
+      "symbol": "var_wrkshp"
     }
   ]
 }

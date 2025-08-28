@@ -30,7 +30,7 @@
           {
             "command": "EVENT_IF_SAVED_DATA",
             "args": {
-              "saveSlot": 2,
+              "saveSlot": 0,
               "__collapseElse": false,
               "__collapse": false
             },
@@ -82,7 +82,7 @@
                       {
                         "command": "EVENT_LOAD_DATA",
                         "args": {
-                          "saveSlot": 2,
+                          "saveSlot": 0,
                           "__collapse": false
                         },
                         "id": "c081ae36-6d6c-458c-8d36-0a85b737c109"
