@@ -292,17 +292,6 @@
         ],
         "true9": [
           {
-            "command": "EVENT_TEXT_SET_SOUND_EFFECT",
-            "args": {
-              "type": "tone",
-              "pitch": 4,
-              "frequency": 100,
-              "duration": 4.25,
-              "effect": 0
-            },
-            "id": "594de508-bbfb-429e-99e2-4971cb1c974e"
-          },
-          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -328,29 +317,12 @@
             "id": "c4f7dc74-ef7e-4b13-8071-120fef378a93"
           },
           {
-            "command": "EVENT_MUTE_CHANNEL",
-            "args": {
-              "channels": [
-                0,
-                1,
-                2,
-                3
-              ]
-            },
-            "id": "c00341a5-4093-48e9-a829-a6ccca07f4e1"
-          },
-          {
             "command": "EVENT_WAIT",
             "args": {
               "time": 1,
               "frames": 30
             },
             "id": "d43e13e7-8ca5-4cc0-9d99-34e5c775dfc3"
-          },
-          {
-            "command": "EVENT_MUTE_CHANNEL",
-            "args": {},
-            "id": "598a4b88-d6f0-4b9a-a583-ef690ca673c3"
           }
         ],
         "true10": [],

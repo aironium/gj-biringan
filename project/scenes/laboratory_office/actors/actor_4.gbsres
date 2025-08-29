@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "262b67fa-c6ab-4c5a-883d-77391a279561",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "89063faa-1d09-46f1-957b-c0419b81440c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_144",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Note 4\nDr. Kalaw",
+          "If the nation\nonly knew that",
+          "We are ahead of\nother countries",
+          "That should put\nour nation as",
+          "a superpower.\nBut we aren't."
+        ],
+        "__section": "text",
+        "avatarId": "03838225-067b-4afe-8982-dc4ba5ec41d8",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "72907529-2ba8-4b11-b0f2-b8fe157dc238"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 20,
+  "y": 17,
+  "_index": 6
+}

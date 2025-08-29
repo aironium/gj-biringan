@@ -132,6 +132,16 @@
       "symbol": "var_inv_gun"
     },
     {
+      "id": "26",
+      "name": "portal discovered",
+      "symbol": "var_portal_discovered"
+    },
+    {
+      "id": "27",
+      "name": "lab entrance found",
+      "symbol": "var_lab_entrance_found"
+    },
+    {
       "id": "c5853aa1-c156-409d-b647-4c018700d5ea__L0",
       "name": "x",
       "symbol": "var_x"
@@ -180,6 +190,26 @@
       "id": "659dd814-ae25-4665-8a7e-fbaaad0bc408__L0",
       "name": "wrkshp",
       "symbol": "var_wrkshp"
+    },
+    {
+      "id": "28986cea-fa05-4f27-823c-7fa27236dc19__L0",
+      "name": "useportal",
+      "symbol": "var_useportal"
+    },
+    {
+      "id": "28",
+      "name": "inv_card",
+      "symbol": "var_inv_card"
+    },
+    {
+      "id": "29",
+      "name": "lab_office_unlocked",
+      "symbol": "var_lab_office_unlocked"
+    },
+    {
+      "id": "30",
+      "name": "headache_day_15",
+      "symbol": "var_headache_day_15"
     }
   ]
 }

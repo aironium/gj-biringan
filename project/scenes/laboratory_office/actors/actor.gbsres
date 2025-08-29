@@ -1,0 +1,56 @@
+{
+  "_resourceType": "actor",
+  "id": "ae38c678-96c3-4574-a7ae-6d107ce7bb22",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "89063faa-1d09-46f1-957b-c0419b81440c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_141",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Note 1\nDr. Kalaw",
+          "Time fabric\ndisplacement",
+          "test has been\nsuccessful",
+          "but now we are\ntrapped."
+        ],
+        "__section": "text",
+        "avatarId": "03838225-067b-4afe-8982-dc4ba5ec41d8",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4bfd6ac8-0658-4482-9240-7c95fea7a39f"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 3,
+  "y": 21,
+  "_index": 3
+}

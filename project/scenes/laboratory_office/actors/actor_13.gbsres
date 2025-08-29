@@ -1,0 +1,62 @@
+{
+  "_resourceType": "actor",
+  "id": "4bc8fec1-5d9a-46fd-b938-9d103c538160",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "89063faa-1d09-46f1-957b-c0419b81440c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_159",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "LABORATORY\nDOCUMENTATION",
+          "Prototype Matter\nTransmitter",
+          "Dr. Kalaw & AGHAM\nTeam",
+          "The system works\nby forcing the",
+          "time fabric to meet\ntogether as if",
+          "it is literally being\nfolded.",
+          "It is achieved by\n[CENSORED] the",
+          "time fabric through\nthe principle of",
+          "[CENSORED].",
+          "[For Internal Use\nOnly]"
+        ],
+        "__section": "text",
+        "avatarId": "03838225-067b-4afe-8982-dc4ba5ec41d8",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f43b6dfa-f09a-4a07-8137-60984686016c"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 34,
+  "y": 10,
+  "_index": 17
+}

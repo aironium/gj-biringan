@@ -1,0 +1,98 @@
+{
+  "_resourceType": "scene",
+  "id": "8765fe4a-c253-49d7-9e1d-dcddbbc20498",
+  "_index": 38,
+  "name": "Laboratory Office",
+  "backgroundId": "bb414422-b41e-4c21-bc00-481203eb79ff",
+  "tilesetId": "",
+  "width": 40,
+  "height": 50,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f51+04!00!012+00!01!003+04!00!01!0f!012+002+012+04!00!012+002+012+002+04!00!012+004+08!0f2+04!008+04!009+04!009+04!007+08!0f2+04!0012+04!0011+08!0f2+04!0024+08!0f2+04!008+04!0013+04!007+08!0f2+04!008+04!0013+04!007+08!0f2+04!008+04!009+0f!009+04!007+08!0f3+022+002+024+0f!028+0f2+029+0f!04!006+08!0f!001f+04!006+08!0f!002+0f!001c+04!006+08!0f!001e+0f!04!006+08!0f2+00!0f!001b+04!0f!007+08!0ff+004+0f8+002+0f!04!008+08!0ff+004+0f8+003+04!008+0f3+01c+0f!004+0f!016+0f2+002+042+006+08!0f3+00c+0f!004+0f!006+0f2+002+04!0f!04!004+08!0f4+00c+0f!004+0f!006+0f!00!0f!00!04!0f!04!004+08!0f4+005+023+00!023+0f!004+0f!022+004+0f!00!0f!00!042+006+08!0f3+005+013+00!013+0f!004+0f!012+004+0f!003+04!008+08!0f2+00c+0f!004+0f!006+0f!00!0f2+04!008+08!0f2+00c+0f!004+0f2+02!002+022+0f2+002+042+006+08!0f3+00c+0f!004+0f!012+002+012+0f!003+04!0f2+004+0f6+00a+0f2+004+0f!006+0f!003+04!0f2+02!002+02!0f9+004+02!0f4+004+0f3+002+0f3+003+0fb+0026+0f!005a+0f!00d+0f2+00e+0fb+002+0f9+00!0fa+004+0f24+004+0f3+013+00!016+0f6+015+0f5+04!01!00!013+0f!004+0f!01!00b+0f5+04!005+0f5+04!005+0f!004+0f!00c+0f!00!0f4+002+0f4+002+0f3+002+02!0f3+004+0f!002+0f4+003+0f4+002+0f!00b+0f2+0085+0fa+005+08!0f6+04!002+08!0f7+04!002+0fe+04!004+08!0f6+04!002+08!0f7+04!002+0fe+04!004+08!0f6+04!002+08!0f7+04!0f!00!08!0fd+04!004+08!0f6+04!002+08!0f7+04!002+08!0fd+04!004+08!0f6+04!002+08!0f7+04!00!0ff+04!004+08!0f6+04!002+08!0f7+04!002+08!0fd+04!004+08!0f6+04!002+08!0f7+04!0f!00!08!0fd+04!004+08!0f6+04!002+08!0f7+04!002+08!0fd+04!004+08!0f2+04!009+08!0f3+04!003+08!0fd+04!004+08!0f2+04!009+08!0f3+04!003+08!0fd+04!004+08!0f2+04!009+08!0f3+04!002+0f5+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_39",
+  "x": 1344,
+  "y": 2632,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "53dab2f9-aeaa-49f5-b479-6caf8057a518"
+                  },
+                  "id": "c3fd1716-7a4f-453b-a4e4-036ea7cc8cbf"
+                }
+              ]
+            },
+            "id": "504173e2-4c3e-4f7f-8f90-a30921ac0012"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "a7e651df-8a94-45a1-98c6-114483544f3b"
+          }
+        ]
+      },
+      "id": "ca034af8-bc6e-4a86-ba8b-631590560d90"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a0291263-6b9d-4b93-bc82-8c6cbf84acc5"
+      },
+      "id": "85ee92f2-2275-43f1-bbfd-e28abad8ade9"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " AGHAM Laboratory\n Office"
+        ],
+        "__section": "text",
+        "avatarId": "0bd86b32-dd79-4871-a014-6597d5170b95",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8cc926fc-6e3e-4f67-b397-fafa1296216b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "dce9f116-cafe-407f-8f78-87bdbecf4512"
+}

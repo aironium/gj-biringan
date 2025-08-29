@@ -1,0 +1,90 @@
+{
+  "_resourceType": "scene",
+  "id": "e9b6195c-712e-4077-b876-e39536daa505",
+  "_index": 39,
+  "name": "Laboratory Back",
+  "backgroundId": "7ab8b09a-8635-4025-9673-37c0fb935c7f",
+  "tilesetId": "",
+  "width": 60,
+  "height": 30,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f1d+0011+0f2+003+0f2+005+0f1f+004+0f2+005+0f2+004+0f2+003+0f2+007+0fc+013+0f7+016+0f!004+0f2+005+0f2+004+0f2+00c+0fc+003+0f7+006+0f!004+0f2+00b+0f2+003+0f2+007+0fc+003+0f7+006+0f!004+0f2+0010+0f2+007+0fc+003+0f7+006+0f!008+0f2+0015+0fc+003+0f7+006+0f!008+0f2+0015+0fc+003+0f2+00!0f4+006+0f!002+0f2+001b+0fc+003+0f2+00!0f4+006+0f!002+0f2+001b+0fc+003+0f2+00!0f4+006+0f!001f+0f6+009+0f2+00!0f2+008+0f!001b+0f2+002+0f6+009+0f2+00!0f2+008+0f!001b+0f2+002+0f6+009+015+0020+0f2+006+0f6+002e+0f2+006+012+0f2+012+0025+0f2+002+0f2+007+0f2+002d+0f2+002+0f2+007+0f2+002+0f16+006+0f!00e+0f2+00b+0f2+002+0f16+006+0f!006+0f2+006+0f2+005+0f2+004+0f2+002+0f16+006+0f!003+0f2+00!0f2+00d+0f2+008+0f15+007+0f!003+0f2+007+0f2+007+0f2+008+0f15+007+0f!003+0f2+007+0f2+007+0f2+006+0f17+007+0f!003+0f2+0018+0f17+005+0f3+0011+0f2+00c+0f2+002+0f2+005+0f5+00a+0f5+009+0f2+004+0f2+00c+0f2+002+0f2+005+0f6+009+0f5+009+0f2+0012+0f2+002+0f2+005+0f6+009+0f3+007+0f2+00b+0f2+009+0f2+002+0f2+005+0f6+004+0f8+00!0f2+004+0f2+00b+0f2+009+012+002+012+00f+0f8+00!0f2+004+0f2+006+0f2+003+0f2+006+0f2+0016+0f8+007+0f2+006+0f2+003+0f2+006+0f2+00!0f1d+001f+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_40",
+  "x": 1680,
+  "y": 2632,
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "53dab2f9-aeaa-49f5-b479-6caf8057a518"
+                  },
+                  "id": "2cb5c997-5a67-4aaa-8caf-3a95e2297113"
+                }
+              ]
+            },
+            "id": "01bcc8d8-29d2-4cb6-8d22-cb950c9b5ea5"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "e28cf0df-fe0a-4685-902e-468c72cca74c"
+          }
+        ]
+      },
+      "id": "15282844-ffd4-48ce-804b-55052000877b"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " AGHAM Laboratory\n Receiving Area"
+        ],
+        "__section": "text",
+        "avatarId": "0bd86b32-dd79-4871-a014-6597d5170b95",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2a54b59d-e7f8-49be-8ee1-1d14d999dceb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

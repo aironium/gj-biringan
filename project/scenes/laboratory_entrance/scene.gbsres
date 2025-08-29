@@ -10,12 +10,141 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0fb+00!0f10+00!0fb+00!0f2+006+0f2+00!0f10+00d+0f2+006+0f2+00!0f10+00d+0f2+009+0f10+002+0f2+004+0f2+003+0f2+009+0f10+002+0f2+004+0f2+00e+0f10+008+0f2+0026+0f2+004b+0f2+0026+0f2+007+0f2+0026+0f2+0047+0f2+009+0f2+001b+0f2+005+0f2+002+0f2+0014+0f2+00c+0f2+0018+0f2+00c+0f2+001c+0f2+008+0f2+006+0f2+0014+0f2+0010+0f2+00e+0f2+004+0f2+0020+0f2+004+0f2+0020+0f2+00d+0f2+003+0f2+0012+0f2+00d+0f2+003+0f2+001c+0f2+001f+0f2+005+0f2+0013+0f2+00a+0f2+001a+0f2+003d+0f3+005+0f20+00!0f2+0026+0f2+0026+0f2+0026+0f2+0075+0f1c+005+0f7+00c8+",
+  "collisions": "0fb+00!0f10+00!0fb+00!0f2+006+0f2+00!0f10+00d+0f2+006+0f2+00!0f10+00d+0f2+009+0f10+002+0f2+004+0f2+003+0f2+009+0f10+002+0f2+004+0f2+00e+0f10+008+0f2+0026+0f2+0016+0f6+0022+0f6+007+0f2+0026+0f2+007+0f2+0026+0f2+0047+0f2+009+0f2+001b+0f2+005+0f2+002+0f2+0014+0f2+00c+0f2+0018+0f2+00c+0f2+001c+0f2+008+0f2+006+0f2+0014+0f2+0010+0f2+00e+0f2+004+0f2+0020+0f2+004+0f2+0020+0f2+00d+0f2+003+0f2+0012+0f2+00d+0f2+003+0f2+001c+0f2+001f+0f2+005+0f2+0013+0f2+00a+0f2+001a+0f2+003d+0f3+005+0f20+00!0f2+0026+0f2+0026+0f2+0026+0f2+0075+0f1c+005+0f7+00c8+",
   "autoFadeSpeed": 1,
   "symbol": "scene_38",
   "x": 1008,
   "y": 2632,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "World Init"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ],
+              "override": true,
+              "__scriptTabs": "press",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "53dab2f9-aeaa-49f5-b479-6caf8057a518"
+                  },
+                  "id": "2cec60ba-785d-4f0b-a56b-e00a0bd843ec"
+                }
+              ]
+            },
+            "id": "af90c521-0134-484c-9ea6-846e31d2eb33"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "c610aba6-6bcc-48b0-a685-03d79670b46b"
+            },
+            "id": "be884bf6-69c3-4329-9c34-982f08179da0"
+          }
+        ]
+      },
+      "id": "ffeaaa33-7a61-43ac-a409-d3bd2d1563e4"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "27"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "What is this\nplace?",
+                "...",
+                "A laboratory?",
+                "...",
+                "This is out of\nplace.",
+                "But even then,\nmaybe it is a\nsecret lab.",
+                "Against my own\njudgement... I\nwill check it."
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b5482e61-129d-40e8-8cd4-7ef51df7e29a"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "27",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "c3eb0565-d9fd-478b-be46-38de7b761e30"
+          }
+        ],
+        "false": []
+      },
+      "id": "52f4cf38-73c4-4b15-946c-8f92297c10be"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          " AGHAM Laboratory\n Entrance"
+        ],
+        "__section": "text",
+        "avatarId": "0bd86b32-dd79-4871-a014-6597d5170b95",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": false,
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "adf63f98-6682-4835-a6c9-ad04b9dc4ba0"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

@@ -1,0 +1,232 @@
+{
+  "_resourceType": "actor",
+  "id": "f2d7c6b5-b14c-43d2-8c94-6c36fad6f6a2",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f4e77239-6fd5-44fc-b077-ed944bd3afe5",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_160",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "28"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Dr. Kalaw's card\nDetected.",
+                "Prototype Room\nUnlocked"
+              ],
+              "__section": "text",
+              "avatarId": "5a869159-81c7-4b46-9cb9-fca93b35f418",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "499832f4-1c4d-454b-95c4-8e4c16d5f881"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "607f735f-6487-460a-bd1f-91cf5b683e98"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 39
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 6
+                    }
+                  },
+                  "id": "76195d7a-11ea-4707-809c-1f41e3280ad4"
+                }
+              ]
+            },
+            "id": "9db22e0a-4da4-494f-8e28-7c1f81ffb9d6"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "player",
+              "x": {
+                "type": "number",
+                "value": 34
+              },
+              "y": {
+                "type": "number",
+                "value": 6
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "b9e9e302-7d63-49b5-a173-5fb880335e0f"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This area seems\nlocked.",
+                "Hmmm...",
+                "There is a slot in\nthe middle."
+              ],
+              "__section": "text",
+              "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 2,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "246e6260-17fc-4da6-8b0e-159d1742a0e2"
+          }
+        ]
+      },
+      "id": "3d46252d-b056-400c-9955-3954cf91a5da"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "29"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "586371c4-f2e3-4550-876d-2d955d7f941c"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 39
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 6
+                    }
+                  },
+                  "id": "c723269e-5283-40c1-ae88-358abd040e83"
+                }
+              ]
+            },
+            "id": "86591599-05b5-43f1-a1dc-e174b5d91721"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {},
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 29
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 6
+                    }
+                  },
+                  "id": "e37119bc-0113-4d05-96a1-04f49268cf8f"
+                },
+                {
+                  "command": "EVENT_ACTOR_SHOW",
+                  "args": {
+                    "actorId": "$self$"
+                  },
+                  "id": "16f04727-2c3f-4c76-9531-4c3451ec58a4"
+                }
+              ]
+            },
+            "id": "040b6055-9464-4753-9d0f-012767b1109a"
+          }
+        ]
+      },
+      "id": "bdb02830-8dda-4763-b683-3c72c2616594"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 29,
+  "y": 6,
+  "_index": 18
+}

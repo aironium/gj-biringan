@@ -1,0 +1,218 @@
+{
+  "_resourceType": "actor",
+  "id": "63804544-55ba-44ae-bd49-339a96c0998c",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "08e576af-d33a-4ebe-bf12-e795cb5c91cc",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_158",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A card! Interesting.\nLet's see..."
+        ],
+        "__section": "text",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c610096e-5f41-43b8-8ebe-64b7c6b205c7"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "AGHAM Electronic\nKey Card",
+          "Owner:\nDr. X. Kalaw",
+          "ID Number:\n20414922214",
+          "Class:\nChief of Physics",
+          "[This is a backup\nduplicate card]",
+          "[For Internal\nUse Only]"
+        ],
+        "__section": "text",
+        "avatarId": "c647c1f7-6294-4914-9fe8-57d3b5a091fb",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ce2e16d3-298f-4f79-ab54-7a23d366edbc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Alright I'll take it."
+        ],
+        "__section": "text",
+        "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "576970cb-3e60-41b9-b1ee-7a380e2ffaf4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Key Card Obtained!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "956f7b66-b76c-4daa-b113-c5e569e4c7db"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "28",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "74056f76-5a19-4f3a-a2b2-df47b5e881ab"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 49
+        }
+      },
+      "id": "a14f36ff-a38b-428f-a1e5-7ff435815578"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "5ec28c0c-0abd-4c26-ac39-568171372099"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "28"
+          },
+          "valueB": {
+            "type": "false"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_ACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "dd6285c8-3ba9-40e6-9911-c385e0736071"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "5fc53660-e52d-45f2-bffa-bf12a382eba4"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_POSITION",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 49
+              }
+            },
+            "id": "780d658b-081c-4d25-b0db-36a999f9ad45"
+          }
+        ]
+      },
+      "id": "9134c18b-e340-4d0e-aff4-522f3575a2e9"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 18,
+  "_index": 16
+}

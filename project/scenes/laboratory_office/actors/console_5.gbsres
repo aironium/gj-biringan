@@ -1,0 +1,63 @@
+{
+  "_resourceType": "actor",
+  "id": "ef10d61e-53a7-45d4-b131-5af4d88b2b58",
+  "name": "Console",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "42cb7eab-32e7-4429-8b69-ed71e7d3d5a4",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_152",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Loading Logs",
+          "--2525252525--\n202x 12 25",
+          "AGHAM Team\nAttemdamce",
+          "Dr. X. Kalaw\n[Present]",
+          "Dr. JA. Saibot\n[Absent]",
+          "Dr. H. Sanchez\n[Absent]",
+          "Dr. P. Axios\n[Absent]",
+          "Dr. M. Maso\n[Absent]",
+          "Dr. H. Marin\n[Field]",
+          "Dr. V. Varan\n[Field]",
+          "Dr. YO Cardan\n[Field]"
+        ],
+        "__section": "text",
+        "avatarId": "5a869159-81c7-4b46-9cb9-fca93b35f418",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "505f062e-8d4f-496a-99e5-af6611722954"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 19,
+  "y": 47,
+  "_index": 14
+}

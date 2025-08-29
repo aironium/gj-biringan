@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 400,
   "filename": "lab_room1.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

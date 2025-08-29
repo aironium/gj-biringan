@@ -33,13 +33,14 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "You're my only\npassenger...\n\nOh well...\nWe are moving."
+          "You're my only\npassenger...",
+          "Oh well...\nWe are moving."
         ],
         "__section": "text",
         "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",
         "minHeight": 4,
         "maxHeight": 7,
-        "textX": 1,
+        "textX": 2,
         "textY": 1,
         "textHeight": 5,
         "position": "bottom",

@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "24c320d2-2f80-495b-8da6-18ccddec0eb4",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "89063faa-1d09-46f1-957b-c0419b81440c",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_148",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Note 6\nDr. Kalaw",
+          "Time to test\ntoday.",
+          "I finally\nfinished them",
+          "Rare metal\nshipments from",
+          "Homonhon was a\ngood investment"
+        ],
+        "__section": "text",
+        "avatarId": "03838225-067b-4afe-8982-dc4ba5ec41d8",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ef909028-6eba-4b95-8162-f2d912edd6ca"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 14,
+  "y": 6,
+  "_index": 10
+}

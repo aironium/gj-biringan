@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7ab8b09a-8635-4025-9673-37c0fb935c7f",
+  "name": "lab_room2",
+  "symbol": "bg_lab_room2",
+  "width": 60,
+  "height": 30,
+  "imageWidth": 480,
+  "imageHeight": 240,
+  "filename": "lab_room2.png",
+  "tileColors": ""
+}

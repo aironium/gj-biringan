@@ -1,0 +1,57 @@
+{
+  "_resourceType": "actor",
+  "id": "f5557fa9-2dbf-46ae-8263-2d9a864dd5e7",
+  "name": "Console",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "42cb7eab-32e7-4429-8b69-ed71e7d3d5a4",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_138",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Loading Logs",
+          "--24424--\n202x 02 14",
+          "Valentine\nExperiment",
+          "Waves nominal\nHeat nominal",
+          "Energy stable\nFluid stable"
+        ],
+        "__section": "text",
+        "avatarId": "5a869159-81c7-4b46-9cb9-fca93b35f418",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 2,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "42accd10-dd73-4b50-984c-94fca03cada5"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 8,
+  "y": 3,
+  "_index": 0
+}

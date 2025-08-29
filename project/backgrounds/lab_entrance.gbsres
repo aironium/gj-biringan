@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 320,
   "filename": "lab_entrance.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

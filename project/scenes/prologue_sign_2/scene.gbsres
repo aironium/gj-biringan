@@ -33,7 +33,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "WHAT SHOULD I\nDO?"
+          "WHAT THE HELL?!",
+          "WHAT SHOULD WE\nDO?"
         ],
         "__section": "text",
         "avatarId": "c0e37491-46d0-42f7-a79d-90908ab2267d",
@@ -108,7 +109,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "JUST JUMP!"
+          "JUST JUMP!\nSAVE YOURSELF!"
         ],
         "__section": "text",
         "avatarId": "8cf9b9e5-e9e6-4487-aa4a-f2d5159ec754",
@@ -154,6 +155,19 @@
         "closeDelayFrames": 30
       },
       "id": "c3daf3be-8b4e-4438-b1ac-f75299ae980e"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "vertical",
+        "magnitude": {
+          "type": "number",
+          "value": 15
+        }
+      },
+      "id": "0c16ff19-eec0-4ea8-8db5-966e699b87bb"
     },
     {
       "command": "EVENT_SWITCH_SCENE",
